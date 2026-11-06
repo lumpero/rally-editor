@@ -1,0 +1,1254 @@
+{
+  "source": "Rally-tokon kilpailuohje 1.1.2026",
+  "sections": [
+    {
+      "id": "k1",
+      "number": "1",
+      "title": "YLEISET OHJEET",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "id": "k1-1",
+      "number": "1.1",
+      "title": "Järjestämisluvan myöntäminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Näitä sääntöjä noudatetaan Kennelliiton ja Palveluskoiraliiton myöntämissä rally-tokokilpailuissa. Kennelliitto myöntää valtakunnalliset mestaruuskilpailut, niiden valintakilpailut ja maaottelut sekä kansainväliset kilpailut. Palveluskoiraliitto myöntää muut kansalliset kilpailut."
+        }
+      ]
+    },
+    {
+      "id": "k2",
+      "number": "2",
+      "title": "KILPAILUN ANOMINEN",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "id": "k2-1",
+      "number": "2.1",
+      "title": "Kilpailun anominen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailua anovan yhdistyksen tulee olla Kennelliiton ja Palveluskoiraliiton jäsen. Kilpailu on anottava myöntäjän määräaikojen mukaisesti."
+        }
+      ]
+    },
+    {
+      "id": "k2-2",
+      "number": "2.2",
+      "title": "Anomuksen sisältö ja osoittaminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailuanomuksessa on mainittava järjestävä yhdistys, kilpailun laji ja luonne, osallistumisrajoitukset, kilpailuaika ja -paikka, luokat, osallistumismaksu sekä kenelle ja mihin mennessä ilmoittautuminen ja osallistumismaksu suoritetaan, tehtävään lupautunut ylituomari sekä vastaava koetoimitsija. Arvokilpailuissa on suositeltavaa nimetä kilpailun ylituomarille varahenkilö. Kilpailuanomus osoitetaan Palveluskoiraliitolle."
+        }
+      ]
+    },
+    {
+      "id": "k2-3",
+      "number": "2.3",
+      "title": "Kilpailusta ilmoittaminen ja tiedottaminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailun myöntäjä toimittaa myöntämistään kilpailuista tiedot Kennelliitolle julkaistaviksi."
+        }
+      ]
+    },
+    {
+      "id": "k2-4",
+      "number": "2.4",
+      "title": "Kilpailun alkaminen ja päättyminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailun katsotaan alkavan 30 minuuttia ennen ensimmäistä rataan tutustumista. Kilpailu katsotaan päättyneeksi tunnin kuluttua viimeisen luokan palkintojenjaosta."
+        }
+      ]
+    },
+    {
+      "id": "k2-5",
+      "number": "2.5",
+      "title": "Ohjaajan velvollisuudet",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "k2-5-1",
+      "number": "2.5.1",
+      "title": "Palveluskoiraliiton lisenssi",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Rally-tokokilpailuihin osallistuvalla koiranohjaajalla tulee olla Palveluskoiraliiton myöntämä ja voimassa oleva lisenssi. Ulkomaalaisilta koiranohjaajilta ei edellytetä lisenssiä."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-2",
+      "number": "2.5.2",
+      "title": "Ilmoittautuminen kilpailuun",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koira voidaan ilmoittaa kilpailuun vain yhden ohjaajan ohjaamana ja vain siihen luokkaan, johon sillä ilmoittautumispäivänä on osallistumisoikeus. Ulkomaalaisen osallistujan tulee ilmoittautua vastaavaan luokkaan kuin omassa kotimaassaan, mikäli laji on virallinen osallistujan kotimaassa. Muussa tapauksessa ulkomaalainen osallistuja ilmoittautuu siihen luokkaan, johon koirakolla on ilmoittautumispäivänä osallistumisoikeus Suomessa."
+        },
+        {
+          "type": "p",
+          "text": "Ilmoittautuminen kilpailuun tulee tapahtua kilpailun järjestäjän ilmoittamalla tavalla määräaikana. Kilpailun järjestäjä määrää osallistumismaksun, maksutavan ja ilmoittautumisen määräajan, jonka tulee olla ennen kilpailun alkua. Peruuttaneen koirakon tilalle voidaan ottaa toinen, osallistumismaksun maksava koirakko ilmoittautumisajan puitteissa ilmoittautuneista koirakoista ilmoittautumisjärjestyksessä."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-3",
+      "number": "2.5.3",
+      "title": "Jälki-ilmoittautuminen",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mikäli kilpailussa on ilmoittautumisen määräajan umpeuduttua vielä tilaa, voi järjestäjä halutessaan ottaa jälki-ilmoittautumisia vastaan."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-4",
+      "number": "2.5.4",
+      "title": "Ilmoittautuminen kilpailupaikalla",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Osallistujan on ilmoittauduttava kilpailupaikalla rally-tokokilpailun järjestäjälle viimeistään 30 minuuttia ennen ilmoitettua rataan tutustumista, ellei kilpailukutsussa ole muuta mainittu. Ilmoittautumisen yhteydessä on esitettävä koiran rokotustodistus ja koiran kilpailukirja, joka luovutetaan kilpailun järjestäjälle. Osallistuja, joka ei ajoissa ole ilmoittautunut kilpailupaikalla, voidaan sulkea pois kilpailusta."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-5",
+      "number": "2.5.5",
+      "title": "Poisjääminen kilpailusta",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Osallistumismaksua ei palauteta ilman pätevää syytä. Koiran ohjaajaa ei saa vaihtaa kilpailun aikana, poikkeuksena ohjaajan sairastuminen tai loukkaantuminen."
+        },
+        {
+          "type": "p",
+          "text": "Mikäli osallistumismaksu halutaan palautettavan, tulee hyväksyttävä poisjäämisen syy ilmoittaa ennen kilpailuluokan alkua sekä lähettää tarvittavat dokumentit seitsemän vuorokauden kuluessa kilpailun päättymisestä järjestäjälle."
+        },
+        {
+          "type": "p",
+          "text": "Osallistumismaksu on palautettava takaisin vain seuraavissa tapauksissa:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Kilpailu joudutaan peruuttamaan tai kilpailu siirretään, eikä koirakko pysty osallistumaan kilpailuun uutena ajankohtana.",
+            "Ohjaaja on sairastunut tai loukkaantunut.",
+            "Koira on sairastunut tai kuollut.",
+            "Koiralla on juoksut.",
+            "Kilpailun tuomari vaihtuu, eikä koira voi osallistua tuomarin jääviyden vuoksi tai koira ei voi saada koulutustunnusta tuomarimuutoksen vuoksi.",
+            "Koiran kilpailuluokka muuttuu ilmoittautumisen jälkeen, eikä seuraavassa kilpailuluokassa ole enää tilaa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k2-5-6",
+      "number": "2.5.6",
+      "title": "Kilpailun tulosten tarkastus ja lähettäminen",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailun vastaava koetoimitsija tarkastaa kaikki laskelmat ja huolehtii tulosten merkitsemisestä koepöytäkirjalomakkeelle sekä koirakohtaisille lomakkeille ja jättää ne viikon kuluessa ylituomarin tarkastettaviksi. Ylituomarin on vahvistettava koirakohtaiset tulokset ja valionarvoon oikeuttavat tulokset."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-7",
+      "number": "2.5.7",
+      "title": "Ohjaajan käyttäytyminen kilpailupaikalla",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailussa on noudatettava rally-tokon sääntöjen ja kilpailuohjeiden lisäksi tuomarin sekä järjestäjän ohjeita ja määräyksiä sekä esiinnyttävä muutenkin moitteettomasti kilpailun ajan. Eläinten hyvinvointilain, Palveluskoiraliiton ja Kennelliiton ohjeiden vastaiset välineet ja menettelyt ovat kiellettyjä."
+        },
+        {
+          "type": "p",
+          "text": "Mikäli kilpailuun osallistuva henkilö käyttäytyy kilpailussa sopimattomasti tai epäurheilijamaisesti, esimerkiksi toimii vilpillisesti, on päihtyneenä, arvostelee tuomaria tai käsittelee omaa tai toisen koiraa epäasiallisesti tai aggressiivisesti, tulee tuomarin sulkea asianomainen henkilö pois kilpailusta. Kilpailusta suljetun osallistujan koira menettää kaikki kilpailun aikana saavuttamansa tulokset. Tuomarin päätös on lopullinen eikä ohjaaja voi siitä valittaa."
+        },
+        {
+          "type": "p",
+          "text": "Kurinpidollisista asioista ja muista sääntörikkomuksista on aina tehtävä merkintä koepöytäkirjaan. Vakavat tapaukset on kilpailun ylituomarin ilmoitettava Palveluskoiraliiton hallitukselle toimenpiteitä varten. Palveluskoiraliiton hallitus voi tällöin antaa sopimattomasti käyttäytyneelle henkilölle muistutuksen tai määräaikaisen kilpailu-, arvostelu- tai toimintakiellon. Ylituomarin tai kilpailun järjestävän yhdistyksen hallituksen ehdottaessa kilpailuun osallistujalle kilpailukieltoa on hän kilpailukiellon alaisena asian käsittelyn ajan."
+        },
+        {
+          "type": "p",
+          "text": "Koiran omistaja ja ohjaaja vastaavat kilpailun aikana koiralle aiheutuneista ja koiran aiheuttamista vahingoista. Ilmoittautumalla kilpailuun koiran omistaja ja ohjaaja hyväksyvät tämän ohjeen. Koiran loukkaantuessa on sen kilpailusuoritus keskeytettävä. Päätöksen kilpailusuorituksen keskeyttämisestä tekee kilpailun ylituomari tai koiran ohjaaja."
+        }
+      ]
+    },
+    {
+      "id": "k2-5-8",
+      "number": "2.5.8",
+      "title": "Ohjaajan vamma",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Pysyvästi vammansa tai sairautensa vuoksi liikkumisen apuvälineitä käyttävä ohjaaja ei tarvitse erillistä poikkeuslupaa, mutta apuvälineestä on mainittava ilmoittautumisen yhteydessä. Liikkumisen apuvälineitä käyttävän ohjaajan kohdalla tahdinmuutostehtävillä ei arvostella tahdin muuttumista. Pyörätuolia käyttävä ohjaaja voi suorittaa tehtävän 312 (puolenvaihto jalkojen välistä) tehtävänä 311 (puolenvaihto takaa) ja tarvittaessa kääntää pyörätuolia 90° puolenvaihtotehtävissä."
+        },
+        {
+          "type": "p",
+          "text": "Näkövammainen ohjaaja ei tarvitse erillistä poikkeuslupaa. Hänellä voi olla avustaja radalla ja koiralla voi olla kello tai muu vastaava äänilaite osoittamassa koiran sijainnin. Avustajan ja ohjaajan välistä kommunikointia ei ole rajattu. Ohjaaja saa tarvittaessa kolme minuuttia lisäaikaa varsinaisen rataan tutustumisen jälkeen. Kellosta tai vastaavasta ja avustajasta on mainittava ilmoittautumisen yhteydessä. Kilpailun järjestäjän on ilmoitettava näistä viimeistään viikkoa ennen kilpailua tuomarille."
+        },
+        {
+          "type": "p",
+          "text": "Muissa kuin edellä mainituissa tapauksissa pysyvästi vammautuneen ohjaajan, joka ei vammansa vuoksi voi ohjata koiraa kilpailuohjeen edellyttämällä tavalla, on anottava poikkeuslupaa Palveluskoiraliitolta, perusteltava anomuksensa ja esitettävä anomusta puoltavat dokumentit. Myönnetty kirjallinen poikkeuslupa on mainittava kilpailuun ilmoittautumisen yhteydessä sekä esitettävä kilpailupaikalla arvostelevalle tuomarille. Kilpailun järjestäjän on ilmoitettava poikkeusluvasta viimeistään viikkoa ennen kilpailua kilpailun ylituomarille."
+        },
+        {
+          "type": "p",
+          "text": "Avustaja-, hypo-, tai kuulokoira ei tarvitse erillistä poikkeuslupaa käyttää tunnisteliiviä. Liivin käytöstä on mainittava ilmoittautumisen yhteydessä."
+        }
+      ]
+    },
+    {
+      "id": "k2-6",
+      "number": "2.6",
+      "title": "Koiraa koskevat ohjeet",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "k2-6-1",
+      "number": "2.6.1",
+      "title": "Koiran varusteet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailukehässä koiralla on oltava tavallinen solki- tai pistolukkokaulapanta tai valjaat. Vedonestovaljaita tai valjaita, joissa hihna kiinnitetään koiran rintaan, ei saa käyttää. Ketjukaulaimia, puolikuristavia, kuristavia kaulaimia tai kelatalutinta ei saa käyttää."
+        },
+        {
+          "type": "p",
+          "text": "Alokasluokka suoritetaan koira kytkettynä. Hihnan tulee olla ohjaajan kädessä, roikkua löysänä ja sen on oltava riittävän pitkä, jotta tehtävät voidaan suorittaa hihnan kiristymättä. Hihna saa olla kummassa kädessä tahansa. Hihnan löysänä roikkuva osa saa koskettaa maahan."
+        },
+        {
+          "type": "p",
+          "text": "Seniori-, avoin-, voittaja- ja mestariluokka suoritetaan koira kytkemättömänä. Koiralle saa jättää kaulapannan tai valjaat suorituksen ajaksi. Koiralla ei saa rata-alueella olla päällä mitään muuta kuin sääntöjen mukaiset varusteet (pois lukien juoksusuoja, kun sallittu). Turkin kiinnikkeet ovat sallittuja pään alueella."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-2",
+      "number": "2.6.2",
+      "title": "Koiran vihainen käytös kilpailupaikalla",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mikäli koira käyttäytyy aggressiivisesti, yrittää purra tai puree ihmistä tai toista koiraa, tulee tuomarin hylätä ja sulkea koira pois kilpailusta ja koira menettää kaikki kilpailusta saavuttamansa pisteet ja tulokset. Asiasta on tehtävä merkintä koepöytäkirjan tuomarikertomukseen ja tehtävä erikseen Kennelliitolle ilmoitus. Menettelyssä noudatetaan Kennelliiton ohjetta koiran käyttäytymisestä tehtävistä ilmoituksista. Lisäksi tuomarin tulee tehdä kilpailukieltoesitys Virkku-palveluun. Purematapauksessa tulee myös täyttää Palveluskoiraliiton lomake ”Vahinkoilmoitus purematapauksessa”."
+        },
+        {
+          "type": "p",
+          "text": "Tuomari toimittaa viipymättä tarvittavat lomakkeet Kennelliitolle ja Palveluskoiraliitolle sekä merkitsee kilpailukieltoesityksen koiran kilpailukirjaan, arvostelulomakkeelle sekä sähköiseen koepöytäkirjaan ja ko. koiran tietoihin."
+        },
+        {
+          "type": "p",
+          "text": "Palveluskoiraliiton hallituksen määräämät kilpailukiellot ovat voimassa kaikissa Palveluskoiraliiton hallinnoimissa koe- ja kilpailulajeissa (ei koske luonnetestiä ja MH-luonnekuvausta). Mikäli koiran kanssa kilpaillaan Palveluskoiraliiton hallinnoimissa koe- ja kilpailulajeissa kilpailukieltoesityksen tai kilpailukiellon aikana, sen saavuttama tulos mitätöidään."
+        },
+        {
+          "type": "p",
+          "text": "Kennelliiton määräämät osallistumiskiellot ovat voimassa kaikissa Kennelliiton alaisissa tapahtumissa."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-3",
+      "number": "2.6.3",
+      "title": "Koiran häiritsevä käytös kilpailupaikalla",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Mikäli koira karkaa kehästä kilpailusuorituksensa aikana häiritsemään muita koiria, suoritus hylätään ja koiralle määrätään tuomarin toimesta kilpailutauko. Kilpailutauko määrätään myös, mikäli koira kehän ulkopuolelta karkaa kehään häiritsemään suorittavan koiran kilpailusuoritusta. Häiritsemiseksi katsotaan myös muu kuin aggressiivinen käytös, esimerkiksi toisen koiran luo meneminen leikkimis- tai astumistarkoituksessa."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailutauon pituus on kolme (3) kuukautta ja se tulee voimaan välittömästi. Mikäli koira toistamiseen hylätään tästä syystä, on kilpailutauko kuusi (6) kuukautta. Mikäli koiran kanssa kilpaillaan rally-tokokilpailussa kilpailutauon aikana, sen saavuttama tulos mitätöidään."
+        },
+        {
+          "type": "p",
+          "text": "Hylkäys ja kilpailutauon alkamis- ja päättymispäivämäärät kirjataan koiran kilpailukirjaan, arvostelulomakkeelle sekä sähköiseen koepöytäkirjaan ja ko. koiran tietoihin. Kilpailukirjaan merkitään selvästi, milloin kilpailutauko alkaa ja milloin se päättyy, toisin sanoen merkitään viimeinen kilpailutauon päivämäärä. Esimerkiksi merkintä kilpailutauko 15.8.–15.11. tarkoittaa, että koiralle on 15.8. määrätty kilpailutauko ja se saa osallistua rally-tokokilpailuun vasta 16.11."
+        },
+        {
+          "type": "p",
+          "text": "Jos koira karatessaan käyttäytyy aggressiivisesti, yrittää purra tai puree ihmistä tai toista koiraa, noudatetaan kohtaa 2.6.2 Koiran vihainen käytös kilpailupaikalla."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-4",
+      "number": "2.6.4",
+      "title": "Kohtuuton häiriö kilpailun aikana",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koirakolle voidaan myöntää mahdollisuus uusia kilpailusuoritus tuomarin harkinnan mukaan vain, jos häiriön kilpailusuorituksen aikana katsotaan olleen kohtuuton. Tuomari voi tällöin muuttaa kilpailujärjestystä, mikäli kokee sen tarpeelliseksi."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-5",
+      "number": "2.6.5",
+      "title": "Kilpailusuorituksen keskeyttäminen tai hylkääminen",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koiran ohjaaja voi halutessaan keskeyttää kilpailusuorituksensa."
+        },
+        {
+          "type": "p",
+          "text": "Tuomari voi tarvittaessa keskeyttää koirakon kilpailusuorituksen. Keskeytyksen syitä voivat olla esimerkiksi osaamattomuus, koiran karkaaminen, hallitsematon käyttäytyminen, jatkuva haukkuminen, ohjaajan epäasiallinen käyttäytyminen ja koiran tai ohjaajan loukkaantuminen."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailusuorituksen keskeytys on merkittävä arvostelulomakkeeseen, kilpailukirjaan sekä koepöytäkirjaan."
+        },
+        {
+          "type": "p",
+          "text": "Tulokseksi merkitään tällöin ”-”."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koiran ohjaaja keskeyttää kilpailusuorituksen",
+            "Tuomari keskeyttää kilpailusuorituksen",
+            "Koirakon tulos on hylätty, mikäli koirakko tekee hylkäävän virheen ratasuorituksessa."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Kilpailusuorituksen hylkäämisen syitä ovat myös esimerkiksi ulkopuolinen apu, lelujen, makupalojen tai muiden palkkaamiseen tarkoitettujen välineiden käyttäminen kehässä."
+        },
+        {
+          "type": "p",
+          "text": "Tuomarin tulee hylätä koirakon suoritus, mikäli ohjaaja ei noudata kilpailun aikana sääntöjä ja kilpailuohjeita."
+        },
+        {
+          "type": "p",
+          "text": "Hylkäämisen syy on merkittävä arvostelulomakkeeseen. Kilpailukirjaan sekä koepöytäkirjaan tulokseksi merkitään tällöin ”-” ja hylätty."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-6",
+      "number": "2.6.6",
+      "title": "Juoksuinen narttu",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Juoksuisen nartun kanssa saa kilpailla ainoastaan rally-tokon suomenmestaruuskilpailun ja piirinmestaruuskilpailun yksilökilpailussa mestariluokassa. Koirakko kilpailee tällöin luokkansa viimeisenä, eikä juoksuista narttua saa tuoda arvostelukehän läheisyyteen ennen omaa suoritustaan. Nartulla tulee olla juoksusuoja, jota tulee käyttää sekä kilpailukehässä että kilpailualueella. Alkavasta juoksusta on ilmoitettava viipymättä vastaavalle koetoimitsijalle. Jos kilpailija laiminlyö ilmoitusvelvollisuutensa tai liikkuu juoksuisen nartun kanssa kilpailualueella tarpeettomasti, hänet voidaan sulkea tuomarin toimesta pois kilpailusta."
+        }
+      ]
+    },
+    {
+      "id": "k2-6-7",
+      "number": "2.6.7",
+      "title": "Koiran tunnistaminen ja kilpailukirja",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kun koira osallistuu ensimmäistä kertaa rally-tokokilpailuun, tulee koiralle ostaa kilpailukirja. Ulkomaalaisen ohjaajan tulee hankkia suomalainen kilpailukirja, ellei hänellä ole kotimaansa kilpailukirjaa mukanaan. Ohjaaja täyttää kirjaan koiran tunnistetiedot ja esittää tuomarille koiran rekisteriotteen. Kilpailukirjan varmennuksen yhteydessä tuomari tarkastaa koiran luoksepäästävyyden. Tuomari tai tämän valtuuttama toimihenkilö tarkistaa koiran tunnistusmerkinnän ja mittaa koiran säkäkorkeuden. Mittaaminen tehdään lapaluiden päältä koiran seisoessa normaalissa asennossa ja säkäkorkeus (alle 30 cm, 30–39 cm, 40–49 cm, 50 cm ja yli) merkitään kilpailukirjaan. Tuomari tarkastaa ja vahvistaa kilpailukirjan tiedot allekirjoituksellaan."
+        },
+        {
+          "type": "p",
+          "text": "Jos kilpailukirja katoaa, koiran saavuttamat kilpailutulokset tarkistetaan Kennelliiton jalostustietojärjestelmästä ja tuomari vahvistaa uuteen kilpailukirjaan siirretyt tulokset."
+        }
+      ]
+    },
+    {
+      "id": "k2-7",
+      "number": "2.7",
+      "title": "Kilpailun organisaatio",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailun järjestäjä vastaa kilpailun toteuttamisesta ja taloudesta. Järjestäjän tulee varata riittävästi päteviä toimihenkilöitä vastaamaan kilpailun järjestelyistä ja perehdyttää toimihenkilöt tehtäviinsä ennen kilpailun alkua."
+        }
+      ]
+    },
+    {
+      "id": "k2-7-1",
+      "number": "2.7.1",
+      "title": "Tuomarit",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jokaisessa kilpailussa tulee olla nimetty ylituomari. Kilpailun ylituomari, arvostelevat tuomarit ja mahdolliset varahenkilöt kutsutaan kirjallisesti ja heidän on vastattava kilpailun järjestäjän kutsuun kirjallisesti. Kirjallinen vastaus on kilpailun järjestäjää ja tuomareita sitova."
+        },
+        {
+          "type": "p",
+          "text": "Tuomareille korvattavat matkakulut, päivärahat sekä majoittumis- ja ateriakorvaukset maksetaan Kennelliiton matkustussäännön mukaan. Kilpailun järjestäjän on hyvä sopia kertyvistä korvauksista etukäteen tuomareiden kanssa."
+        }
+      ]
+    },
+    {
+      "id": "k2-7-2",
+      "number": "2.7.2",
+      "title": "Kilpailun vastaava koetoimitsija",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jokaisessa kilpailussa tulee olla rally-tokokilpailuihin pätevöity vastaava koetoimitsija. Vastaava koetoimitsija vastaa kilpailun sääntöjen ja kilpailuohjeen mukaisista järjestelyistä ja tarvikkeista."
+        }
+      ]
+    },
+    {
+      "id": "k2-7-3",
+      "number": "2.7.3",
+      "title": "Kilpailun muut toimihenkilöt",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jokaiseen kilpailuluokkaan tarvitaan vastaavan koetoimitsijan lisäksi vähintään seuraavat toimihenkilöt:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ilmoittautumisten vastaanottaja",
+            "radanrakentaja",
+            "tuomarin sihteeri",
+            "ajanottaja",
+            "pisteidenlaskija"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k2-8",
+      "number": "2.8",
+      "title": "Luvat",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Järjestäjän tulee tehdä tarvittavat kilpailuun liittyvät lupa-anomukset ja ilmoitukset. Kilpailun järjestäjän on tiedotettava kilpailupaikalla lähimmän päivystysvuorossa olevan eläinlääkärin yhteystiedot."
+        }
+      ]
+    },
+    {
+      "id": "k2-9",
+      "number": "2.9",
+      "title": "Tiedotus",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailun järjestäjä voi tiedottaa kilpailusta haluamallaan tavalla. Kilpailuilmoittautumisiin tulee vastata mahdollisimman pian ilmoittautumisajan päätyttyä. Kilpailupäivän aikataulusta ja muista ohjeista on hyvä tiedottaa osallistujia viimeistään seitsemän päivää ennen kilpailua. Järjestäjä voi halutessaan julkaista osallistujaluettelon."
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "number": "3",
+      "title": "KÄYTÄNNÖN JÄRJESTELYT JA TARVIKKEET",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "id": "k3-1",
+      "number": "3.1",
+      "title": "Arvosteltavien kilpailijoiden määrä päivässä",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tuomari saa arvostella enintään 60 koirakkoa päivässä. Tuomarin arvioidaan arvostelevan noin 12 koirakkoa tunnissa. Luokkien väliin tulee laskea riittävästi aikaa palkintojen jakoon, radan vaihtoon ja rataan tutustumiseen. Arvosteltavasta koiramäärästä ja aikataulusta tulee sopia tuomarin kanssa."
+        }
+      ]
+    },
+    {
+      "id": "k3-2",
+      "number": "3.2",
+      "title": "Kilpailukehä",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kilpailukehä on selvästi merkitty alue, jonka sisällä kilpailusuoritus tehdään. Kehä rajataan kehänauhojen, aitojen tai seinien avulla. Kehään saapumisen ja kehästä poistumisen kohdat tulee olla selkeästi merkitty. Kehään menevälle ja sieltä poistuvalle koirakolle tulee taata suoritusrauha esimerkiksi sisääntulo- ja poistumisalueiden avulla. Kilpailua arvostelevalla tuomarilla on oltava näköyhteys sisääntulo- ja poistumisalueille."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailukehän sivujen suositellaan olevan vähintään 15 m pitkät. Kehän kooksi suositellaan vähintään 300 m² VOI-MES-luokissa ja vähintään 200 m² ALO-AVO-luokissa. Mikäli kehän koko tai sivujen pituus poikkeaa edellä mainitusta, tulee mitat hyväksyttää tuomarilla ennen kilpailun anomista. Lisäksi tuomarille tulee etukäteen ilmoittaa, jos kilpailukehä poikkeaa muodoltaan tavanomaisesta, kehässä on tolppia tai muita kiinteitä kalusteita. Kehässä ei saa olla ylimääräisiä irrallisia tarvikkeita. Kilpailukehän ja yleisön väliin on hyvä varata tilaa niin, ettei yleisö häiritse kilpailusuorituksia."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailukehän pohjan tulee olla riittävän tasainen (keinonurmi, hiekka, lyhyt nurmi, joustava matto tai vastaava), jotta koirat ja ohjaajat voivat liikkua turvallisesti ja vaivatta. Tuomari tarkastaa kehän ennen kilpailun alkua."
+        }
+      ]
+    },
+    {
+      "id": "k3-3",
+      "number": "3.3",
+      "title": "Tarvikkeet",
+      "level": 2,
+      "blocks": []
+    },
+    {
+      "id": "k3-3-1",
+      "number": "3.3.1",
+      "title": "Lomakkeet ja muut tarvikkeet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Esitäytetty arvostelulomake jokaiselle kilpailuun osallistuvalle koiralle",
+            "Tyhjiä arvostelulomakkeita jokaiseen kilpailuluokkaan",
+            "Kilpailukirjoja",
+            "Rally-tokokilpailun säännöt ja ohjeet",
+            "Kennelliiton lomakkeita koiran vihaisesta käyttäytymisestä ja muutoksenhausta",
+            "Palveluskoiraliiton ”vahinkoilmoitus purematapauksessa” -lomakkeita",
+            "Sirunlukija",
+            "Säkämitta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k3-3-2",
+      "number": "3.3.2",
+      "title": "Palkintotarvikkeet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jokaiseen kilpailuluokkaan on varattava esinepalkinto tai vastaava vähintään kolmelle parhaiten sijoittuneelle sekä tuomarinpalkinto. Jokaiseen kilpailuluokkaan on varattava koulutustunnusmitaleja (RTK1, RTK2, RTK3, RTK4, RTKS)."
+        }
+      ]
+    },
+    {
+      "id": "k3-4",
+      "number": "3.4",
+      "title": "Ratatarvikkeet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Kyltit 2 sarjaa",
+            "kylttitelineet 22 kpl",
+            "tehtävänumerot 1-20",
+            "hyppyesteet 2 kpl",
+            "kartiot 15 cm vähintään 15 kpl sekä 40–50 cm vähintään 3 kpl",
+            "rasiat reiällisillä kansilla 2 kpl",
+            "ajanottolaitteisto tai ajanottokello",
+            "merkitsemiseen käytettävät tarvikkeet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k3-4-1",
+      "number": "3.4.1",
+      "title": "Kyltit",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kylttien tulee olla A4-kokoisia ja erityisesti, mikäli niitä käytetään ulkona, niiden tulee olla suojattu sadetta, vahingoittumista ja likaa vastaan. Kilpailukehässä tulee olla kaksi täydellistä kylttisarjaa."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-2",
+      "number": "3.4.2",
+      "title": "Kylttitelineet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kylttitelineiden tulee olla turvallisia ja kylttien tulee näkyä esteettömästi koirakoille. Ulkokilpailuissa on varmistettava, että kylttitelineet sekä kyltit pysyvät paikoillaan. Kilpailukehässä on oltava käytettävissä 22 kylttitelinettä."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-3",
+      "number": "3.4.3",
+      "title": "Tehtävänumerot",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tehtävänumeroiden tulee olla sellaisia, että tehtävän numero on selkeästi nähtävissä koirakoille ja tuomarille. Tehtävänumeroiden suositellaan olevan kaksipuoleisia ja kylttitelineisiin kiinnitettäviä. Ulkokilpailuissa on varmistettava, että tehtävänumerot pysyvät paikoillaan. Kilpailukehässä on oltava käytettävissä tehtävänumerot 1–20 (lähtö- ja maalikylttiä ei numeroida)."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-4",
+      "number": "3.4.4",
+      "title": "Hyppyesteet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tehtävissä 222, 320 ,420 ja 421 on sallittu vain avoimet esteet ja agilityesteet."
+        },
+        {
+          "type": "p",
+          "text": "Avoimen esteen tulee olla noin 100 cm leveä. Tukijalkojen pituus on 50–100 cm, jotta este on vakaa."
+        },
+        {
+          "type": "p",
+          "text": "Tukevuuden varmistamiseksi esteessä on maata vasten tuki, joka on korkeintaan n. 2 cm paksu."
+        },
+        {
+          "type": "p",
+          "text": "Agilityesteessä hyppyleveys on oltava 120–130 cm. Siivekkeen leveys on 40–60 cm ja sen sisäreunan on oltava vähintään 75 cm korkea. Siivekkeen tulee olla sellainen, ettei koiralla ole mahdollisuutta mennä sen alta tai läpi."
+        },
+        {
+          "type": "p",
+          "text": "Estetyypistä riippumatta sivutolppien tulee olla vähintään 100 cm korkeita ja riman halkaisijan 28–50 mm. Kannakkeiden tulee olla sellaiset, että koira voi pudottaa riman riippumatta hyppysuunnasta. Kannakkeiden tulee olla säädettävissä määritetyille hyppykorkeuksille. Esteessä ei saa olla ylimääräisiä kannakkeita. Kilpailukehässä tulee olla käytettävissä kaksi estettä."
+        },
+        {
+          "type": "p",
+          "text": "Pudonnutta rimaa ei nosteta kesken suorituksen, vaikka hyppyeste olisi radalla käytössä toisessa tehtävässä."
+        },
+        {
+          "type": "img",
+          "src": "data/help/img/agilityeste.jpg",
+          "alt": "Agilityeste: hyppyleveys 120–130 cm, siiveke 40–60 cm, sisäreuna vähintään 75 cm ja sivutolpat vähintään 100 cm korkeat."
+        },
+        {
+          "type": "img",
+          "src": "data/help/img/avoin-este.jpg",
+          "alt": "Avoin hyppyeste."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-5",
+      "number": "3.4.5",
+      "title": "Kartiot",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Käytettävissä on oltava riittävä määrä kartioita. Kartioiden tulee olla tukevia ja käyttötarkoitukseen soveltuvia."
+        },
+        {
+          "type": "p",
+          "text": "Kartioiden, joita käytetään tehtävissä 119, 120, 121, 122, 135 ja 221 tai tehtävissä 319, 408 ja 409 osoittamaan kutsumispaikkaa, jos radalla ei ole erillistä kutsutehtävää, tulee olla noin 15 cm korkeita. Kartioita tulee olla käytettävissä vähintään 15 kappaletta."
+        },
+        {
+          "type": "p",
+          "text": "Kartioiden, joita käytetään tehtävissä 410, 417 ja 418, tulee olla selkeästi näkyviä koiralle, noin 40–50 cm korkeita. Kartioita tulee olla käytettävissä vähintään kolme kappaletta."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-6",
+      "number": "3.4.6",
+      "title": "Houkutus",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Houkutuksessa voidaan käyttää tavanomaisia esineitä, makupaloja tai koiralle sopivia leluja, jotka tuomari tuo mukanaan. Mikäli houkutuksessa käytetään makupaloja, niiden tulee olla suljetussa astiassa. Järjestäjän on varattava houkutusta varten kaksi kappaletta astioita, joissa on reiälliset kannet. Houkutuksen pitää olla koiralle turvallinen."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-7",
+      "number": "3.4.7",
+      "title": "Ajanotto",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Järjestäjän on varattava ajanottoa varten ajanottokello tai sähköinen ajanottolaitteisto. Ajanotto alkaa ensimmäisenä kehään saapuneesta ja päättyy ensimmäisenä kehästä lähteneestä. Suoritusaika kirjataan sekunnin sadasosien tarkkuudella."
+        }
+      ]
+    },
+    {
+      "id": "k3-4-8",
+      "number": "3.4.8",
+      "title": "Muut tarvikkeet",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kalkkia, spraymaalia, teippiä tai muuta vastaavaa voidaan käyttää merkitsemään kilpailukehää, harjoittelualuetta tai muuta tärkeää kohtaa radalla. Käytetty aine ei saa olla haitallista."
+        }
+      ]
+    },
+    {
+      "id": "k3-5",
+      "number": "3.5",
+      "title": "Ratojen suunnittelu",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tuomari suunnittelee radat. Ratapiirros laitetaan kilpailupaikalla esille viimeistään puoli tuntia ennen rataan tutustumista. Ratasuunnittelussa on huomioitava seuraavat yleiset säännöt:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Lähdön ja maalin lisäksi alokas- ja senioriluokassa on 10–15 tehtävää, avoimessa luokassa 12–17 tehtävää, voittajaluokassa 15–20 tehtävää ja mestariluokassa 18–20 tehtävää.",
+            "Samaa tehtävää voi käyttää radalla enintään kaksi kertaa.",
+            "Alokas-, seniori- ja avoimessa luokassa koira voi seurata vain ohjaajan vasemmalla puolella.",
+            "Voittaja- ja mestariluokan ratapiirroksessa ilmoitetaan koiran seuraamispuoli kehään saavuttaessa.",
+            "Kaikki tehtävät (paitsi 223, 324, 417 ja 418) on mahdollista suorittaa koiran ollessa vasemmalla tai oikealla puolella. Kohdassa 3.5.1 määritellään, mitä tehtäviä voittajaluokassa ei saa käyttää koiran seuratessa oikealla."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Tehtävien välinen etäisyys on 3–5 metriä, radasta ja tehtävistä riippuen. Kylttitelineet on sijoitettava koirakon kulkusuunnassa sujuvasti. Kaikki etäisyydet ja kulmat ovat arviomittoja. Hyppytehtävässä kylttiteline sijoitetaan kaksi metriä ennen hyppyestettä ja esteen jälkeen on kahden metrin laskeutumisalue. Tehtävässä 320 (sarjahyppy) hyppyjen etäisyys toisistaan on neljä metriä (2 m + 2 m). Radalla voi olla yhteensä kaksi hyppyestettä, mutta niitä voidaan käyttää useammassa tehtävässä. Kaikki hyppyesteet sijoitetaan radalla koiran seuraamispuolelle."
+        },
+        {
+          "type": "p",
+          "text": "Kartiotehtävissä (119, 120, 121, 122, 135, 221) kylttiteline sijoitetaan 1,5–2 metriä ennen ensimmäistä kartiota tai kiinni siihen."
+        },
+        {
+          "type": "p",
+          "text": "Kutsutehtävissä käytettävät kartiot sijoitetaan viisi metriä kylttitelineen jälkeen ja metrin päähän kulkulinjasta vastakkaiselle puolelle kuin mille koira kutsutaan."
+        }
+      ]
+    },
+    {
+      "id": "k3-5-1",
+      "number": "3.5.1",
+      "title": "Tehtävien käyttö luokittain",
+      "level": 3,
+      "blocks": [
+        {
+          "type": "ul",
+          "items": [
+            "Alokas- sekä senioriluokassa saa käyttää yhden pisteen tehtäviä 100–136 (pois lukien tehtävät 114 ja 115).",
+            "Avoimessa luokassa saa käyttää 1–2 pisteen tehtäviä 100–225. Radalla tulee olla vähintään viisi kahden pisteen tehtävää.",
+            "Voittajaluokassa saa käyttää 1–3 pisteen tehtäviä 100–326. Radalla tulee olla vähintään viisi kolmen pisteen tehtävää ja vähintään kolme kahden pisteen tehtävää.",
+            "Voittajaluokassa koiran seuratessa oikealla ei saa käyttää seuraavia tehtäviä:",
+            "yhden pisteen tehtävistä 105, 107, 109, 111, 114",
+            "kahden pisteen tehtävistä 201, 202, 203, 213, 215, 217, 223",
+            "kolmen pisteen tehtävistä 305, 307",
+            "Mestariluokassa saa käyttää 1–4 pisteen tehtäviä 100–422. Radalla tulee olla vähintään viisi neljän pisteen tehtävää, vähintään kolme kolmen pisteen tehtävää ja vähintään kolme kahden pisteen tehtävää."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k3-6",
+      "number": "3.6",
+      "title": "Rataan tutustuminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ennen jokaista kilpailuluokkaa tulee varata 15 minuuttia yhteiseen rataan tutustumiseen ohjaajille ilman koiria. Rataan tutustumisen alussa on tuomarin puhuttelu. Rataan tutustumassa voi olla enintään 20 ohjaajaa kerralla. Saman kilpailuluokan rataan tutustumisryhmien tulisi olla samankokoisia."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaaja ei saa muuttaa ratatarvikkeiden paikkoja. Mahdolliset huomautukset radasta on tehtävä tuomarille ennen kilpailuluokan alkamista tai rataan tutustumisen aikana. Rataan tutustumisen päätyttyä ensimmäisellä koirakolla tulee olla vähintään kaksi minuuttia aikaa valmistautua kilpailusuoritukseen."
+        }
+      ]
+    },
+    {
+      "id": "k4",
+      "number": "4",
+      "title": "YLEISET SUORITUSOHJEET",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ohjeet koostuvat yleisistä suoritusohjeista (luku 4), jotka koskevat kaikkien tehtävien suorittamista ja tehtäväkuvauksista (luku 5), jotka määrittelevät yksittäisten tehtävien suoritustavat."
+        },
+        {
+          "type": "p",
+          "text": "Mikäli kilpailusuorituksen aikana on tapahtuma, jota ei ole rally-tokon säännöissä tai kilpailuohjeessa määritelty, kilpailun tuomari päättää kuinka tapahtuma arvostellaan ja kuinka kilpailusuoritus mahdollisesti jatkuu. Tuomarin päätös on lopullinen eikä kilpailija voi kyseenalaistaa tuomarin päätöstä."
+        }
+      ]
+    },
+    {
+      "id": "k4-1",
+      "number": "4.1",
+      "title": "Kehään tulo ja kehästä poistuminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Alokasluokassa kilpailusuoritus tehdään koira kytkettynä. Avoin-, voittaja-, mestari- ja senioriluokassa koiran hihna tulee irrottaa tuomarin kutsusta ennen kehään astumista ja kiinnittää välittömästi kehästä poistumisen jälkeen. Hihna tulee laittaa pois näkyvistä tai kiinnittää ohjaajan olan tai molempien olkien yli niin, että se ei häiritse suoritusta."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailusuorituksen aikana palkitsemiseen käytettäviä tarvikkeita ei saa olla näkyvissä tai kädessä (esimerkiksi lelu, ruoka tai makupalapussi). Ohjaaja ei saa pudottaa mitään kehään. Kaikenlainen ulkopuolinen neuvominen ja apu on kilpailusuorituksen aikana kielletty."
+        },
+        {
+          "type": "p",
+          "text": "Ennen omaa suoritustaan koirakko odottaa sisääntuloalueella. Tuomari kutsuu koirakon kehään suullisesti, jonka jälkeen koiran hihna irrotetaan, pois lukien alokasluokka, ja koirakko siirtyy kehään aloittaen kilpailusuorituksensa. Koiran pieni aktivointi, koskettaminen tai palkkaaminen ovat sallittuja tuomarin kutsun jälkeen ennen kehään tuloa."
+        },
+        {
+          "type": "p",
+          "text": "Tuomarin kutsun jälkeen koirakko aloittaa tehtävien suorittamisen määrätyssä järjestyksessä tehtäväkuvausten mukaisesti."
+        },
+        {
+          "type": "p",
+          "text": "Kilpailusuorituksen arvostelu ja ajanotto alkavat välittömästi, kun koira tai ohjaaja astuu kehään jatkuen siihen asti, että koira tai ohjaaja poistuu kehästä."
+        },
+        {
+          "type": "p",
+          "text": "Koirakon ohitettua maalikyltin se poistuu kehästä normaalikäyntiä koiran seuratessa samalla puolella kuin maaliin tullessa."
+        }
+      ]
+    },
+    {
+      "id": "k4-2",
+      "number": "4.2",
+      "title": "Yleiset ohjeet",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koirakon tulee liikkua sujuvasti kilpailusuorituksen aikana, pois lukien tehtävät, joissa koiran, ohjaajan tai koirakon tulee pysähtyä. Tehtävien välinen seuraaminen arvostellaan."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaajan jalkojen ei tarvitse olla vierekkäin ohjaajan pysähtyessä, toinen jalka voi olla hieman toista edempänä ja jalat voivat olla erillään toisistaan."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaaja saa käyttää sekä käsi- että vartaloapuja koiran ohjaamiseen. Ylimääräiset askeleet eivät ole sallittuja, paitsi alokasluokassa eteentulotehtävissä."
+        },
+        {
+          "type": "p",
+          "text": "Pieni nopeuden muutos on sallittu ohjaajalle, jotta tehtävät ovat suoritettavissa yhdenaikaisesti."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaajan ja koiran välinen etäisyys seuraamisessa ja tehtävän suoritusten aikana ei saa olla yli 50 cm, lukuun ottamatta tehtäviä, joissa koira ohjataan pois ohjaajasta tai jätetään tiettyyn asentoon ennen luokse kutsumista."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävät 105–113 sekä 123–124 voidaan tehdä normaalikäynnin lisäksi myös hitaassa käynnissä tai juosten. Myös seuraaminen tehtävien välillä suoritetaan määritellyllä nopeudella, kunnes radalla tulee tahdin muutos tai maalikyltti."
+        }
+      ]
+    },
+    {
+      "id": "k4-3",
+      "number": "4.3",
+      "title": "Suoritusalue",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tehtävän suorituksen aikana jonkin osan koirakosta pitää käydä suoritusalueella. Tehtävää ei saa aloittaa kylttitelineen jälkeen. Tehtävät 319, 408 ja 409, joissa koira jätetään asentoon, jonkin osan koirasta on oltava suoritusalueella. Tehtävissä 321, 322, 323, 421 ja 422, joissa ohjaaja kutsuu koiraa, jonkin osan ohjaajasta on oltava suoritusalueella."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävät suoritetaan kylttitelineen vasemmalla puolella, kun koirakon kulkureitti ei muutu (A). Poikkeuksena tehtävät 417 ja 418, jotka alkavat suoritusalueen A mukaan, vaikka koirakon kulkusuunta vaihtuu."
+        },
+        {
+          "type": "p",
+          "text": "Kulkusuunnan muuttuessa tai suoritettaessa sivuaskeltehtäviä, tehtävä suoritetaan kylttitelineen edessä (B). Sama koskee kartiotehtäviä 119,120, 121, 122, 135 ja 221."
+        },
+        {
+          "type": "p",
+          "text": "Luoksetulokutsut tehdään erillisen luoksetulokyltin edessä (B) tai luoksetulokartion jälkeen (C)."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävissä 222 ja 320 koiran saa lähettää hyppäämään aikaisintaan kylttitelineeltä. Hyppytehtävän laskeutumisalue on määritetty ja koiran tulee pysyä laskeutumisalueella, kunnes ohjaaja saavuttaa koiran (D). Ohjaaja saa nopeuttaa tahtiaan saavuttaakseen koiran. Tehtävässä 320 koira voi palata hyppyjen välillä seuraamaan. Tehtävässä 421 kylttiteline on sijoitettu kahdeksan metrin päähän edellisestä telineestä. Hyppyeste sijaitsee telineiden puolivälissä siten, että esteen lähin sivu on kaksi metriä keskilinjasta."
+        },
+        {
+          "type": "p",
+          "text": "Suoritusalueet:"
+        },
+        {
+          "type": "img",
+          "src": "data/help/img/suoritusalueet.jpg",
+          "alt": "Suoritusalueet A, B, C ja D: 1 x 1 metrin alueet telineen vieressä, edessä ja kartion jälkeen sekä hyppytehtävän 1 x 2 metrin alueet esteen molemmin puolin."
+        }
+      ]
+    },
+    {
+      "id": "k4-4",
+      "number": "4.4",
+      "title": "Askel ja askeltaminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Ohjaaja on ottanut askeleen, kun etummaisen jalan kantapään ja takimmaisen jalan varpaiden väliin jää selvästi tyhjä tila ja jalka on nostettu irti maasta. Askeleet voi ottaa laittamalla nopeasti jalat vierekkäin. Askelten ei tarvitse olla yhtä pitkiä."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävissä, joissa on määritetty askelten määrä ja suunta, ylimääräiset, puuttuvat, väärään suuntaan otetut tai vajaat askeleet katsotaan tehtävän väärin suorittamiseksi. Muissa tehtävissä askelten määrää ei ole rajoitettu. Tehtävän 412 viimeisessä peruutusaskeleessa etummainen jalka on nostettava selkeästi maasta."
+        },
+        {
+          "type": "p",
+          "text": "Viisto- ja sivuaskelissa askelpituuden tai -leveyden on oltava vähintään ohjaajan jalkapohjan mitta. Ristiaskeleet eivät ole sallittuja."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaaja voi lopettaa liikkeessä tehtävät viisto- ja sivuaskeleet (134, 225, 301, 302, 401, 402) joko laittamalla nopeasti jalat vierekkäin tai ottamalla askeleen eteenpäin koskettamatta maata kyseisellä jalalla."
+        },
+        {
+          "type": "p",
+          "text": "Paikallaan suoritettavissa tehtävissä ohjaaja ei saa askeltaa paikallaan. Koiran paikallaan askeltaminen on sallittu."
+        }
+      ]
+    },
+    {
+      "id": "k4-5",
+      "number": "4.5",
+      "title": "Sama rintamasuunta",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koiran rintamasuunnan pitää pysyä yhdensuuntaisena ja samassa linjassa ohjaajan kanssa seuraamisen aikana sekä suoritettaessa tehtäviä, joissa koirakko on samaan suuntaan. Hyppytehtävissä laskeutumisalueella rintamasuuntaa ei arvostella."
+        },
+        {
+          "type": "p",
+          "text": "Ohjaajan edessä suoritettavissa tehtävissä koiran tulee pysyä keskellä, suorassa ja yhdensuuntaisena ohjaajaa kohti sekä pitää sijaintinsa, kun ohjaaja liikkuu sivulle tai taaksepäin."
+        }
+      ]
+    },
+    {
+      "id": "k4-6",
+      "number": "4.6",
+      "title": "Koiran asento",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Koiran on sallittua istua tai maata niin sanotussa lonkka-asennossa. Koira on makuulla, kun vähintään koiran rintakehä tai toinen kyynärä osuu maahan. Paikalla seisoessa, istuessa tai maatessa sekä asennonvaihdoissa koiran tulee säilyttää sijaintinsa ja rintamasuuntansa."
+        }
+      ]
+    },
+    {
+      "id": "k4-7",
+      "number": "4.7",
+      "title": "Käännökset",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Seuraavat käännökset ohjaaja tekee paikallaan (A4-alueella): 114–115, 123–124, 211–218, 307–308, 414–415."
+        },
+        {
+          "type": "p",
+          "text": "Seuraavissa käännöksissä ohjaaja kääntyy niin, että halkaisija on enintään 50 cm: 105–113, 201–203, 223, 310, 313–314, 324, 405."
+        },
+        {
+          "type": "img",
+          "src": "data/help/img/kaannokset.jpg",
+          "alt": "Käännösten askelkuviot: oikein suoritetut käännökset sekä -3 ja -10 pisteen vähennykset liian laajoista käännöksistä."
+        }
+      ]
+    },
+    {
+      "id": "k4-8",
+      "number": "4.8",
+      "title": "Kartiotehtävät",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Tehtävässä 410 (merkille lähetys) kartio voidaan sijoittaa jopa 90° kulmaan joko vasemmalle tai oikealle puolelle 3–5 metrin etäisyydelle kyltistä. Koiran seuraamispuoli ei vaikuta kartion sijoittamiseen. Kun koira on lähetetty kartiolle, vähintään yhden koiran tassuista on oltava metrin säteellä kartiosta. Kartion ympärille voidaan merkitä ympyrän ääriviivat. Kartion, jolle koira lähetetään, ja kutsukartion välinen etäisyys tulee olla vähintään kaksi metriä."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävissä 417 ja 418 kartio sijoitetaan 1–2 metriä suoraan kyltin jälkeen. Koira kiertää kartion tiivisti joko kävellen tai juosten. Ohjaaja saa hidastaa, kun koira kiertää kartiota."
+        }
+      ]
+    },
+    {
+      "id": "k4-9",
+      "number": "4.9",
+      "title": "Kutsut ja ohjaajan edessä suoritettavat tehtävät",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kutsukartion etäisyys kutsutehtävissä, joissa ei ole erillistä kutsukylttiä sekä tehtävässä 410 (merkille lähetys) on viisi metriä suoraan edellisen kyltin jälkeen. Erillisen kutsukyltin sijoittaminen on määritelty erikseen tehtäväkuvauksessa. Koiran varaslähtö merkitsee tehtävän väärin suorittamista."
+        },
+        {
+          "type": "p",
+          "text": "Koiraa kutsuessaan ohjaaja voi hidastaa, jotta koira saavuttaa ohjaajan ennen seuraavaa tehtävää. Seuraava kyltti on sijoitettava viiden metrin päähän kutsukartiosta tai kutsukyltistä."
+        },
+        {
+          "type": "p",
+          "text": "Tehtävässä 420 (istu, kutsu esteen yli) ohjaaja voi kutsua koiraa aikaisintaan ohitettuaan hyppyesteen, kuitenkin ennen laskeutumisalueen päättymistä."
+        },
+        {
+          "type": "p",
+          "text": "Kaikki tehtävät, joissa koira ohjataan ohjaajan eteen, päättyvät niin, että koira on ohjaajan vasemmalla puolella. Jos päättymistapaa ei ole määritetty, ohjaaja valitsee palaako koira seuraamispaikalle ohjaajan takaa vai suoraan vasemmalle puolelle."
+        }
+      ]
+    },
+    {
+      "id": "k4-10",
+      "number": "4.10",
+      "title": "Hyppykorkeus",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Esteiden hyppykorkeudet on määritelty koiran säkäkorkeuden mukaan:"
+        },
+        {
+          "type": "table",
+          "head": [
+            "Koiran säkäkorkeus",
+            "Hyppykorkeus"
+          ],
+          "rows": [
+            [
+              "alle 30 cm",
+              "10 cm"
+            ],
+            [
+              "30–39 cm",
+              "20 cm"
+            ],
+            [
+              "40–49 cm",
+              "30 cm"
+            ],
+            [
+              "50 cm ja yli",
+              "40 cm"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k5",
+      "number": "5",
+      "title": "TEHTÄVÄKUVAUKSET",
+      "level": 1,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jos tehtäväkuvauksessa ei erikseen muuta kerrota, noudatetaan luvun 4 yleisiä suoritusohjeita. Tehtävien suoritusalueet on ilmoitettu jokaisen tehtäväkuvauksessa (A, B, C, D)."
+        },
+        {
+          "type": "p",
+          "text": "Kaikki tehtävät on mahdollista suorittaa koiran seuratessa vasemmalla tai oikealla puolella (paitsi 223, 324, 417 ja 418)."
+        }
+      ]
+    },
+    {
+      "id": "k6",
+      "number": "6",
+      "title": "ARVOSTELU",
+      "level": 1,
+      "blocks": []
+    },
+    {
+      "id": "k6-1",
+      "number": "6.1",
+      "title": "Yleiset ohjeet tehtävien arvosteluun",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jokaisella koirakolla on alussa 100 pistettä. Tuomarin tekemät pistevähennykset perustuvat koirakon suoritukseen. Vähennykset ovat -1, -3, -5 ja -10 pistettä. Koirakko ei voi saada alle 0 pistettä. Yhdellä tehtävällä maksimikokonaisvähennys on 10 pistettä. Lisäksi käytösvirheitä, jotka on merkitty tähdellä (★) taulukkoon kohdassa 6.4, voidaan antaa ilman maksimiylärajaa. Jokaisella tehtävien välisellä siirtymällä, maksimivähennys on 10 pistettä. Lisäksi käytösvirheitä, jotka on merkitty tähdellä (★) taulukkoon kohdassa 6.4, voidaan antaa ilman maksimiylärajaa. Kaikki virheet, jotka tehdään kehään sisääntulon ja kehästä poistumisen välillä, otetaan huomioon. Jos virhe tehdään kylttien välillä (esimerkiksi koira tekee pyörähdyksen), merkitään virhe seuraavan kyltin kohdalle. Virheet, jotka tapahtuvat ennen lähtökylttiä, merkitään lähtökyltille. Virheet, jotka tapahtuvat maalikyltin jälkeen, merkitään maalikyltille. Radan ja tehtäväsuoritusten aikana tuomarin on otettava huomioon koiran rotu, koko ja temperamentti arvostelussa."
+        }
+      ]
+    },
+    {
+      "id": "k6-2",
+      "number": "6.2",
+      "title": "Pistevähennykset",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "h",
+          "text": "Yhden pisteen vähennykset"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koiran vinous 45–90°",
+            "Koiran epäröinti tai pieni viive reagoinnissa.",
+            "Koiran suorittaa hitaasti.",
+            "Koira nuuskii maata/kylttiä/kartiota.",
+            "Koira koskee kylttiä tai kartiota (häntää ei lasketa).",
+            "Koira astuu ohjaajan jalalle.",
+            "Koira nojaa ohjaajaan seuratessa.",
+            "Koira koskee tarkoituksella ohjaajan kättä kuonolla.",
+            "Pysäyttävissä tehtävissä koira liikkuu vähän pois alkuperäiseltä paikaltaan.",
+            "Koira pysähtyessään tekee vähän ylimääräistä liikettä eteen, taakse tai sivusuunnassa.",
+            "Ohjaaja koskee kylttitelineeseen/kartioon.",
+            "Ohjaajan pieni epäröinti/eksyminen liikkuessa."
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Kolmen pisteen vähennykset"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koiran ja ohjaajan välinen etäisyys yli 50 cm.",
+            "Koira liikuttaa tai kaataa kylttitelineen/kartion tai astuu sen yli.",
+            "Koira käy kartion/kylttitelineen väärällä puolella.",
+            "Koiran etäisyys kartiota kiertäessään on yli metrin tehtävässä 417 tai 418.",
+            "Koiran lyhyt viive reagoinnissa.",
+            "Koira suorittaa erittäin hitaasti.",
+            "Koira pysähtyy selkeästi seuraamisessa tehtävien välillä.",
+            "Koira on ohjaajan tiellä ja estää ohjaajan sujuvan liikkumisen (esimerkiksi pujottelussa).",
+            "Koira yrittää vaihtaa seuraamispuolta, kun se ei kuulu tehtävään.",
+            "Koira yrittää vaihtaa asentoa, kun se ei kuulu tehtävään.",
+            "Koira hyppii ohjaajaa vasten (★).",
+            "Ohjaaja ja koira törmäävät toisiinsa.",
+            "Pysäyttävissä tehtävissä koira liikkuu puoli rungonmittaansa pois alkuperäiseltä paikaltaan.",
+            "Koira pysähtyessään tekee ylimääräistä liikettä eteen, taakse tai sivusuunnassa puoli rungonmittaansa.",
+            "Koira ja ohjaaja eivät aloita käännöstehtävää yhtä aikaa.",
+            "Ohjaaja liikuttaa tai kaataa kylttitelineen/kartion/esteen tai astuu sen yli.",
+            "Ohjaaja käy kylttitelineen/kartion väärällä puolella.",
+            "Ohjaaja askeltaa paikallaan.",
+            "Ohjaaja pysähtyy selkeästi tehtävien välillä.",
+            "Ohjaaja hidastaa tai nopeuttaa tahtiaan merkittävästi auttaakseen koiraa tehtävän suorituksessa.",
+            "Sivuaskeltehtävässä ohjaaja liikkuu enemmän kuin puoli askelta, mutta vähemmän kuin yhden askeleen eteen- tai taaksepäin.",
+            "Ohjaaja tekee liian laajan käännöksen tehtävissä 105–113, 201–203, 310, 313–314 tai 405 (isompi kuin 50 cm, pienempi kuin 100 cm).",
+            "Ohjaaja tekee liian laajan käännöksen tehtävissä 114–115,211–218, 307–308 tai 414–412 (isompi kuin A4, pienempi kuin A3)."
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Viiden pisteen vähennykset"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koiran pitkä viive reagoinnissa.",
+            "Koira haistelee tai koskee houkutukseen.",
+            "Koira pudottaa esteen riman.",
+            "Sivuaskeltehtävässä koira ei käytä liikkuessaan etu- ja takapäätään yhtä aikaa.",
+            "Ohjaaja komentaa kovaäänisesti tai elehtii uhkaavasti (★).",
+            "Ohjaaja muuttaa kulkulinjaansa antaakseen tilaa tai ohjatakseen koiraa (esimerkiksi puolenvaihdossa tai hyppyesteelle lähetyksessä)."
+          ]
+        },
+        {
+          "type": "h",
+          "text": "Kymmenen pisteen vähennykset"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koira on vinossa yli 90°",
+            "Koira karkaa ohjaajan luota, mutta palaa heti takaisin (★).",
+            "Koira ei hyppää estettä, ohittaa esteen tai kaataa hyppyesteen.",
+            "Tehtävät 417–418: Koira ei lähde ohjaajan luota lähetettäessä.",
+            "Koira ottaa kehässä jotain suuhun (★).",
+            "Koira tekee ylimääräisiä liikkeitä kylttien välillä.",
+            "Koira tai ohjaaja ei käy tehtävän suoritusalueella tehtävän missään vaiheessa.",
+            "Koira lähtee liikkeelle liian aikaisin, riippumatta etäisyydestä ohjaajaan.",
+            "Koira siirtyy väärälle seuraamispuolelle.",
+            "Koira seuraa ohjaajan väärällä puolella.",
+            "Pysäyttävässä tehtävässä koira liikkuu yli rungonmittansa alkuperäisestä asennostaan.",
+            "Koira pysähtyy selvästi tehtävässä, johon ei kuulu pysähtymistä.",
+            "Koira on erittäin haluton/vastahakoinen suorittamaan tehtävää.",
+            "Sivuaskeltehtävässä koira ei käytä liikkuessaan sekä etu- että takapäätään.",
+            "Ohjaaja koskee koiraan (★).",
+            "Ohjaaja suorittaa tehtävän väärässä tahdissa.",
+            "Sivuaskeltehtävässä ohjaaja liikkuu yli yhden askeleen eteen- tai taaksepäin.",
+            "Hihna näkyy taskusta.",
+            "Ohjaaja laittaa käden taskuun (★).",
+            "Ohjaaja pysähtyy selvästi, kun se ei kuulu tehtävään.",
+            "Tehtävän uusiminen (★).",
+            "Ohjaaja tekee liian laajan käännöksen tehtävissä 105–113, 201–203, 310, 313–314 tai 405 (isompi kuin 100 cm).",
+            "Ohjaaja tekee liian laajan käännöksen tehtävissä 114–115,211–218, 307–308 tai 414–412 (isompi kuin A3).",
+            "Tehtävä suoritetaan väärin.",
+            "Koirakko on kylttitelineen/kartion väärällä puolella."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k6-3",
+      "number": "6.3",
+      "title": "Kokonaisvaikutelma",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Kokonaisvaikutelman arvioinnissa otetaan huomioon koiran ja ohjaajan välinen yhteistyö. Enimmillään 10 pistettä voidaan vähentää perustuen käytökseen, josta ei ole erikseen vähennetty tietyllä tehtävällä. Esimerkiksi:"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Pitkäaikainen viive tuomarin kutsun ja kehään siirtymisen välillä.",
+            "Koira haukkuu/ääntelee suorituksen aikana.",
+            "Koira hyppii ylös-alas ajoittain radalla.",
+            "Koira häiritsee ohjaajan liikkumista.",
+            "Koirakon yhteistyön puute.",
+            "Ohjaaja käyttää epäystävällistä tai kovaa ääntä ohjatessaan koiraa."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k6-4",
+      "number": "6.4",
+      "title": "Hylkääminen",
+      "level": 2,
+      "blocks": [
+        {
+          "type": "p",
+          "text": "Jos yksi tai useampi alla olevista toteutuu, koirakko hylätään ja se saa tulokseksi ”-”"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "Koira on selkeästi haluton yhteistyöhön.",
+            "Koira karkaa ohjaajan luota eikä tule takaisin kutsuttaessa.",
+            "Koira karkaa ohjaajan luota toistamiseen.",
+            "Koira tekee tarpeensa kehään.",
+            "Koira haukkuu tai ääntelee jatkuvasti, eikä ole ohjaajan hallinnassa.",
+            "Koira haistelee jatkuvasti esim. maata.",
+            "Koirakko tulee kehään ennen tuomarin kutsua.",
+            "Koirakko siirtyy selkeästi poispäin kehästä tuomarin kutsun jälkeen.",
+            "Ohjaaja tulee kehään koira kytkettynä pois lukien alokasluokka.",
+            "Ohjaajalla on makupaloja, ruokaa, leluja tai muita esineitä näkyvissä kehässä.",
+            "Ohjaaja kulkee kyltin ohi yrittämättä suorittaa tehtävää.",
+            "Ohjaaja tai koirakko suorittaa tehtäviä väärässä järjestyksessä.",
+            "Ohjaaja käyttäytyy epäasiallisesti koiraa kohtaan kehässä.",
+            "Ohjaaja harjoittelee tehtäviä liikaa, kuten toistaa tehtävän yli kaksi kertaa.",
+            "Ohjaajalla tai koiralla on kiellettyjä varusteita.",
+            "Ohjaaja, koira tai koirakko poistuu kehästä ennen kuin kilpailusuoritus on päättynyt (koiran kaikki neljä tassua kehän ulkopuolella).",
+            "Ohjaaja ei noudata rally-tokon sääntöjä tai kilpailuohjetta.",
+            "Ulkopuolinen apu: koirakko saa apua tai ohjeita kehän ulkopuolelta.",
+            "Alokasluokassa talutin on jatkuvasti kireällä."
+          ]
+        }
+      ]
+    }
+  ]
+}

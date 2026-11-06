@@ -1,0 +1,110 @@
+{
+  "source": "Rally-tokon kilpailuohje 1.1.2026",
+  "classes": {
+    "alokas": {
+      "ref": "3.5, 3.5.1",
+      "tasks": { "min": 10, "max": 15 },
+      "maxSignId": 136,
+      "excluded": ["114", "115"],
+      "minByPoints": {},
+      "startSides": ["left"]
+    },
+    "avoin": {
+      "ref": "3.5, 3.5.1",
+      "tasks": { "min": 12, "max": 17 },
+      "maxSignId": 225,
+      "excluded": [],
+      "minByPoints": { "2": 5 },
+      "startSides": ["left"]
+    },
+    "voittaja": {
+      "ref": "3.5, 3.5.1",
+      "tasks": { "min": 15, "max": 20 },
+      "maxSignId": 326,
+      "excluded": [],
+      "minByPoints": { "3": 5, "2": 3 },
+      "startSides": ["left", "right"],
+      "forbiddenOnRight": ["105", "107", "109", "111", "114", "201", "202", "203", "213", "215", "217", "223", "305", "307"]
+    },
+    "mestari": {
+      "ref": "3.5, 3.5.1",
+      "tasks": { "min": 18, "max": 20 },
+      "maxSignId": 422,
+      "excluded": [],
+      "minByPoints": { "4": 5, "3": 3, "2": 3 },
+      "startSides": ["left", "right"]
+    }
+  },
+  "course": {
+    "ref": "3.4, 3.4.2, 3.4.3, 3.5",
+    "maxRepeats": 2,
+    "maxNumbers": 20,
+    "maxSignHolders": 22,
+    "maxJumps": 2,
+    "signDistance": { "min": 3, "max": 5 }
+  },
+  "ring": {
+    "ref": "3.2",
+    "minSide": 15,
+    "minArea": { "alokas": 200, "avoin": 200, "voittaja": 300, "mestari": 300 },
+    "presets": [
+      { "id": "15x15", "width": 15, "height": 15 },
+      { "id": "20x15", "width": 20, "height": 15 },
+      { "id": "20x20", "width": 20, "height": 20 },
+      { "id": "25x20", "width": 25, "height": 20 },
+      { "id": "30x20", "width": 30, "height": 20 }
+    ],
+    "defaultPreset": "20x15"
+  },
+  "side": {
+    "ref": "3.5, 4.9, 5",
+    "continuesLeft": ["127", "130", "131", "132", "133", "209", "210", "306", "321", "322", "323", "325", "326", "411", "416", "421", "422"],
+    "toggles": ["310", "311", "312", "313", "314", "315", "316", "405", "406"],
+    "required": {
+      "223": { "start": "left" },
+      "324": { "start": "right" },
+      "417": { "start": "left", "after": "right" },
+      "418": { "start": "right", "after": "left" }
+    }
+  },
+  "pace": {
+    "ref": "4.2, 5",
+    "starts": ["116", "117"],
+    "resets": ["118"],
+    "allowed": ["105", "106", "107", "108", "109", "110", "111", "112", "113", "123", "124"]
+  },
+  "callChains": {
+    "ref": "4.3, 4.9, 5",
+    "leaveSigns": ["319", "408", "409"],
+    "callSigns": ["321", "322", "323", "421", "422"],
+    "callSignDistance": {
+      "321": { "min": 3, "max": 5 },
+      "322": { "min": 3, "max": 5 },
+      "323": { "min": 3, "max": 5 },
+      "421": { "min": 8, "max": 8 }
+    },
+    "callConeDistance": 5,
+    "callConeOffset": 1,
+    "nextSignAfterCall": 5
+  },
+  "equipment": {
+    "ref": "3.4.4, 3.4.5, 3.5, 4.8",
+    "maxSmallCones": 15,
+    "maxLargeCones": 3,
+    "signs": {
+      "119": { "cone": 3, "spacing": { "min": 1.5, "max": 2.5 }, "signToFirst": { "min": 0, "max": 2 } },
+      "120": { "cone": 3, "spacing": { "min": 1.5, "max": 2.5 }, "signToFirst": { "min": 0, "max": 2 } },
+      "121": { "cone": 4, "spacing": { "min": 1.5, "max": 2.5 }, "signToFirst": { "min": 0, "max": 2 } },
+      "122": { "cone": 4, "spacing": { "min": 1.5, "max": 2.5 }, "signToFirst": { "min": 0, "max": 2 } },
+      "135": { "cone": 2, "spacing": { "min": 2.5, "max": 3 }, "signToFirst": { "min": 0, "max": 2 } },
+      "221": { "cone": 2, "lure": 2, "spacing": { "min": 2.5, "max": 3 }, "lureSpacing": { "min": 1.5, "max": 2 }, "signToFirst": { "min": 0, "max": 2 } },
+      "222": { "jump": 1, "signToJump": 2, "landing": 2 },
+      "320": { "jump": 2, "signToJump": 2, "landing": 2, "jumpSpacing": 4, "maxAngle": 90 },
+      "420": { "jump": 1 },
+      "421": { "jump": 1, "jumpOffset": 2 },
+      "410": { "cone-large": 1, "call-cone": 1, "distance": { "min": 3, "max": 5 }, "maxAngle": 90, "minToCallCone": 2 },
+      "417": { "cone-large": 1, "distance": { "min": 1, "max": 2 } },
+      "418": { "cone-large": 1, "distance": { "min": 1, "max": 2 } }
+    }
+  }
+}

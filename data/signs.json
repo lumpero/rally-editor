@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "lahto",
+    "class": "yleinen",
+    "points": 0,
+    "name": "LÄHTÖ",
+    "area": "A",
+    "description": "Koira seuraa ohjaajaa lähtökyltille. Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko lähtee suorittamaan rataa.",
+    "image": "signs/lahto.png"
+  },
+  {
+    "id": "maali",
+    "class": "yleinen",
+    "points": 0,
+    "name": "MAALI",
+    "area": "A",
+    "description": "Tarvittaessa koirakko siirtyy normaalikäyntiin. Rata päättyy, kun koirakko ohittaa kyltin. Koirakko poistuu kilpailukehästä normaalikäyntiä.",
+    "image": "signs/maali.png"
+  },
+  {
+    "id": "101",
+    "class": "alokas",
+    "points": 1,
+    "name": "MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira menee maahan ohjaajan viereen. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/101.png"
+  },
+  {
+    "id": "102",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira menee maahan. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/102.png"
+  },
+  {
+    "id": "103",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira jää istumaan ja ohjaaja kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy.",
+    "image": "signs/103.png"
+  },
+  {
+    "id": "104",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, MAAHAN, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen, josta menee maahan. Koira jää maahan ja ohjaaja kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/104.png"
+  },
+  {
+    "id": "105",
+    "class": "alokas",
+    "points": 1,
+    "name": "TÄYSKÄÄNNÖS OIKEAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin täyskäännöksen oikeaan.",
+    "image": "signs/105.png"
+  },
+  {
+    "id": "106",
+    "class": "alokas",
+    "points": 1,
+    "name": "TÄYSKÄÄNNÖS VASEMPAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin täyskäännöksen vasempaan.",
+    "image": "signs/106.png"
+  },
+  {
+    "id": "107",
+    "class": "alokas",
+    "points": 1,
+    "name": "SILMUKKA OIKEAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin käännöksen oikeaan ylittäen saapumislinjansa. Käännöksen kulman pitää olla 180° ja 270° välillä.",
+    "image": "signs/107.png"
+  },
+  {
+    "id": "108",
+    "class": "alokas",
+    "points": 1,
+    "name": "SILMUKKA VASEMPAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin käännöksen vasempaan ylittäen saapumislinjansa. Käännöksen kulman pitää olla 180° ja 270° välillä.",
+    "image": "signs/108.png"
+  },
+  {
+    "id": "109",
+    "class": "alokas",
+    "points": 1,
+    "name": "270° OIKEAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin 270° käännöksen oikeaan.",
+    "image": "signs/109.png"
+  },
+  {
+    "id": "110",
+    "class": "alokas",
+    "points": 1,
+    "name": "270° VASEMPAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin 270° käännöksen vasempaan.",
+    "image": "signs/110.png"
+  },
+  {
+    "id": "111",
+    "class": "alokas",
+    "points": 1,
+    "name": "360° OIKEAAN",
+    "area": "A",
+    "description": "Koirakko tekee yhdessä tiiviin 360° käännöksen oikeaan. Koirakko säilyttää alkuperäisen kulkusuuntansa.",
+    "image": "signs/111.png"
+  },
+  {
+    "id": "112",
+    "class": "alokas",
+    "points": 1,
+    "name": "360° VASEMPAAN",
+    "area": "A",
+    "description": "Koirakko tekee yhdessä tiiviin 360° käännöksen vasempaan. Koirakko säilyttää alkuperäisen kulkusuuntansa.",
+    "image": "signs/112.png"
+  },
+  {
+    "id": "113",
+    "class": "alokas",
+    "points": 1,
+    "name": "TÄYSKÄÄNNÖS, KOIRA TAKAA",
+    "area": "B",
+    "description": "Ohjaaja tekee täyskäännöksen koiraa kohti koiran kiertäessä ohjaajan takaa.",
+    "image": "signs/113.png"
+  },
+  {
+    "id": "114",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, KÄÄNNÖS OIKEAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä käännöksen oikeaan, pysähtyy ja koira istuu.",
+    "image": "signs/114.png"
+  },
+  {
+    "id": "115",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, KÄÄNNÖS VASEMPAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä käännöksen vasempaan, pysähtyy ja koira istuu.",
+    "image": "signs/115.png"
+  },
+  {
+    "id": "116",
+    "class": "alokas",
+    "points": 1,
+    "name": "HIDASTA KÄYNTIÄ",
+    "area": "A",
+    "description": "Koirakko hidastaa kulkutahtiaan huomattavasti. Hitaan tahdin tulee säilyä, kunnes koirakko saapuu toiselle tahdinmuutos- tai maalikyltille.",
+    "image": "signs/116.png"
+  },
+  {
+    "id": "117",
+    "class": "alokas",
+    "points": 1,
+    "name": "JUOSTEN",
+    "area": "A",
+    "description": "Koirakko lisää kulkutahtiaan huomattavasti. Nopean tahdin tulee säilyä, kunnes koirakko saapuu toiselle tahdinmuutos- tai maalikyltille.",
+    "image": "signs/117.png"
+  },
+  {
+    "id": "118",
+    "class": "alokas",
+    "points": 1,
+    "name": "NORMAALIKÄYNTIÄ",
+    "area": "A",
+    "description": "Koirakko palaa normaaliin kulkutahtiin.",
+    "image": "signs/118.png"
+  },
+  {
+    "id": "119",
+    "class": "alokas",
+    "points": 1,
+    "name": "SPIRAALI OIKEAAN",
+    "area": "B",
+    "description": "Kolme kartiota on asetettu suoraan linjaan 1,5–2,5 metrin etäisyydelle toisistaan. Koirakko kiertää vasemmalta puolelta ensin kolme kartiota, sitten lähimmät kaksi ja viimeisenä lähimmän kartion.",
+    "image": "signs/119.png"
+  },
+  {
+    "id": "120",
+    "class": "alokas",
+    "points": 1,
+    "name": "SPIRAALI VASEMPAAN",
+    "area": "B",
+    "description": "Kolme kartiota on asetettu suoraan linjaan 1,5–2,5 metrin etäisyydelle toisistaan. Koirakko kiertää oikealta puolelta ensin kolme kartiota, sitten lähimmät kaksi ja viimeisenä lähimmän kartion.",
+    "image": "signs/120.png"
+  },
+  {
+    "id": "121",
+    "class": "alokas",
+    "points": 1,
+    "name": "PUJOTTELU",
+    "area": "B",
+    "description": "Neljä kartiota on asetettu suoraan linjaan 1,5–2,5 metrin etäisyydelle toisistaan. Koirakko pujottelee kartioiden välistä aloittaen suorituksen siten, että ensimmäinen kartio jää koirakon vasemmalle puolelle.",
+    "image": "signs/121.png"
+  },
+  {
+    "id": "122",
+    "class": "alokas",
+    "points": 1,
+    "name": "PUJOTTELU EDESTAKAISIN",
+    "area": "B",
+    "description": "Neljä kartiota on asetettu suoraan linjaan 1,5–2,5 metrin etäisyydelle toisistaan. Koirakko pujottelee edestakaisin kartioiden välistä aloittaen suorituksen siten, että ensimmäinen kartio jää koirakon vasemmalle puolelle.",
+    "image": "signs/122.png"
+  },
+  {
+    "id": "123",
+    "class": "alokas",
+    "points": 1,
+    "name": "KÄÄNNÖS OIKEAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin käännöksen oikeaan.",
+    "image": "signs/123.png"
+  },
+  {
+    "id": "124",
+    "class": "alokas",
+    "points": 1,
+    "name": "KÄÄNNÖS VASEMPAAN",
+    "area": "B",
+    "description": "Koirakko tekee yhdessä tiiviin käännöksen vasempaan.",
+    "image": "signs/124.png"
+  },
+  {
+    "id": "125",
+    "class": "alokas",
+    "points": 1,
+    "name": "SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira pysähtyy seisomaan ohjaajan viereen. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/125.png"
+  },
+  {
+    "id": "126",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, 1 ASKEL, ISTU, 2 ASKELTA, ISTU, 3 ASKELTA, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen eteenpäin ja pysähtyy, sitten kaksi askelta ja pysähtyy, lopuksi kolme askelta ja pysähtyy. Ohjaajan liikkuessa eteenpäin koira seuraa mukana ja ohjaajan pysähtyessä istuu ohjaajan viereen.",
+    "image": "signs/126.png"
+  },
+  {
+    "id": "127",
+    "class": "alokas",
+    "points": 1,
+    "name": "ETEEN ISTU, 1 ASKEL TAAKSE, ISTU, 2 ASKELTA TAAKSE, ISTU, 3 ASKELTA TAAKSE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Ohjaaja peruuttaa yhden askeleen ja pysähtyy, sitten kaksi askelta ja pysähtyy, lopuksi kolme askelta ja pysähtyy. Ohjaajan peruuttaessa koira liikkuu mukana ohjaajan edessä ja ohjaajan pysähtyessä koira istuu ohjaajan eteen. Koira siirtyy ohjaajan vasemmalle puolelle. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/127.png"
+  },
+  {
+    "id": "128",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, 1 ASKEL, SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen eteenpäin ja pysähtyy. Koira seuraa mukana ja ohjaajan pysähtyessä pysähtyy seisomaan ohjaajan viereen. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/128.png"
+  },
+  {
+    "id": "129",
+    "class": "alokas",
+    "points": 1,
+    "name": "ISTU, 1 ASKEL, MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen eteenpäin ja pysähtyy. Koira seuraa mukana ja ohjaajan pysähtyessä koira menee maahan ohjaajan viereen. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/129.png"
+  },
+  {
+    "id": "130",
+    "class": "alokas",
+    "points": 1,
+    "name": "ETEEN ISTU, OIKEALTA VASEMMALLE",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Koira siirtyy ohjaajan takaa vasemmalle puolelle. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/130.png"
+  },
+  {
+    "id": "131",
+    "class": "alokas",
+    "points": 1,
+    "name": "ETEEN ISTU, VASEMMALTA VASEMMALLE",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Koira siirtyy suoraan ohjaajan vasemmalle puolelle. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/131.png"
+  },
+  {
+    "id": "132",
+    "class": "alokas",
+    "points": 1,
+    "name": "ETEEN ISTU, OIKEALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Koira siirtyy ohjaajan takaa vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/132.png"
+  },
+  {
+    "id": "133",
+    "class": "alokas",
+    "points": 1,
+    "name": "ETEEN ISTU, VASEMMALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Koira siirtyy suoraan ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/133.png"
+  },
+  {
+    "id": "134",
+    "class": "alokas",
+    "points": 1,
+    "name": "VIISTO ASKEL OIKEALLE",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa yhden askeleen 45° etuviistoon oikeaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa eteenpäin kyltin oikealta puolelta.",
+    "image": "signs/134.png"
+  },
+  {
+    "id": "135",
+    "class": "alokas",
+    "points": 1,
+    "name": "KAHDEKSIKKO",
+    "area": "B",
+    "description": "Kaksi kartiota on asetettu 2,5–3 metrin etäisyydelle toisistaan. Koirakko kiertää kahdeksikon kartioiden ympäri tuomarin määräämällä tavalla ylittäen kartioiden välisen linjan kolme kertaa.",
+    "image": "signs/135.png"
+  },
+  {
+    "id": "136",
+    "class": "alokas",
+    "points": 1,
+    "name": "OHJAAJAN YMPÄRI",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira kiertää pysähtymättä ohjaajan ympäri etukautta ohjaajan seistessä paikallaan.",
+    "image": "signs/136.png"
+  },
+  {
+    "id": "201",
+    "class": "avoin",
+    "points": 2,
+    "name": "2 x TÄYSKÄÄNNÖS, KOIRA TAKAA",
+    "area": "A",
+    "description": "Ohjaaja tekee täyskäännöksen koiraa kohti koiran kiertäessä ohjaajan takaa, etenee 1–2 metriä ja tekee uuden täyskäännöksen koiraa kohti koiran kiertäessä ohjaajan takaa. Koirakko jatkaa alkuperäiseen kulkusuuntaansa.",
+    "image": "signs/201.png"
+  },
+  {
+    "id": "202",
+    "class": "avoin",
+    "points": 2,
+    "name": "2 x TÄYSKÄÄNNÖS, OIKEAAN JA VASEMPAAN",
+    "area": "A",
+    "description": "Koirakko tekee yhdessä tiiviin täyskäännöksen oikeaan, etenee 1–2 metriä ja tekee tiiviin täyskäännöksen vasempaan. Koirakko jatkaa alkuperäiseen kulkusuuntaansa.",
+    "image": "signs/202.png"
+  },
+  {
+    "id": "203",
+    "class": "avoin",
+    "points": 2,
+    "name": "2 x TÄYSKÄÄNNÖS, VASEMPAAN JA OIKEAAN",
+    "area": "A",
+    "description": "Koirakko tekee yhdessä tiiviin täyskäännöksen vasempaan, etenee 1–2 metriä ja tekee tiiviin täyskäännöksen oikeaan. Koirakko jatkaa alkuperäiseen kulkusuuntaansa.",
+    "image": "signs/203.png"
+  },
+  {
+    "id": "204",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, MAAHAN, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira menee maahan, josta nousee istumaan.",
+    "image": "signs/204.png"
+  },
+  {
+    "id": "205",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira nousee seisomaan. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/205.png"
+  },
+  {
+    "id": "206",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, SEISO, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira nousee seisomaan, josta menee istumaan.",
+    "image": "signs/206.png"
+  },
+  {
+    "id": "207",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, SEISO, MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira nousee seisomaan, josta menee maahan. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/207.png"
+  },
+  {
+    "id": "208",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, SEISO, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira nousee seisomaan ja ohjaaja kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/208.png"
+  },
+  {
+    "id": "209",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, ETEEN ISTU, OIKEALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira siirtyy ohjaajan eteen istumaan ja siitä ohjaajan takaa vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/209.png"
+  },
+  {
+    "id": "210",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, ETEEN ISTU, VASEMMALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira siirtyy ohjaajan eteen istumaan ja siitä suoraan ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/210.png"
+  },
+  {
+    "id": "211",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, 1 ASKEL, KÄÄNNÖS OIKEAAN, 1 ASKEL, KUTSU, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira pysyy istumassa, kun ohjaaja ottaa yhden askeleen eteenpäin. Ohjaaja pysähtyy ja kääntyy oikealle, ottaa yhden askeleen ja pysähtyy. Lopuksi koira kutsutaan ohjaajan viereen istumaan. Seuraamispuoli ei vaihdu.",
+    "image": "signs/211.png"
+  },
+  {
+    "id": "212",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, 1 ASKEL, KÄÄNNÖS VASEMPAAN, 1 ASKEL, KUTSU, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira pysyy istumassa, kun ohjaaja ottaa yhden askeleen eteenpäin. Ohjaaja pysähtyy ja kääntyy vasemmalle, ottaa yhden askeleen ja pysähtyy. Lopuksi koira kutsutaan ohjaajan viereen istumaan. Seuraamispuoli ei vaihdu.",
+    "image": "signs/212.png"
+  },
+  {
+    "id": "213",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, TÄYSKÄÄNNÖS OIKEAAN",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen oikeaan.",
+    "image": "signs/213.png"
+  },
+  {
+    "id": "214",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, TÄYSKÄÄNNÖS VASEMPAAN",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen vasempaan.",
+    "image": "signs/214.png"
+  },
+  {
+    "id": "215",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, TÄYSKÄÄNNÖS OIKEAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen oikeaan, pysähtyy ja koira istuu.",
+    "image": "signs/215.png"
+  },
+  {
+    "id": "216",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, TÄYSKÄÄNNÖS VASEMPAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen vasempaan, pysähtyy ja koira istuu.",
+    "image": "signs/216.png"
+  },
+  {
+    "id": "217",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, KÄÄNNÖS OIKEAAN, 1 ASKEL, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja kääntyy oikeaan, ottaa yhden askeleen ja pysähtyy. Koira seuraa mukana ja istuu ohjaajan pysähtyessä.",
+    "image": "signs/217.png"
+  },
+  {
+    "id": "218",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, KÄÄNNÖS VASEMPAAN, 1 ASKEL, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja kääntyy vasempaan, ottaa yhden askeleen ja pysähtyy. Koira seuraa mukana ja istuu ohjaajan pysähtyessä.",
+    "image": "signs/218.png"
+  },
+  {
+    "id": "219",
+    "class": "avoin",
+    "points": 2,
+    "name": "ISTU, 1 ASKEL, SEISO, 2 ASKELTA, ISTU, 3 ASKELTA, MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen eteenpäin ja pysähtyy. Koira seuraa ja jää seisomaan ohjaajan pysähtyessä. Ohjaaja ottaa kaksi askelta ja pysähtyy. Koira seuraa ja istuu ohjaajan pysähtyessä. Ohjaaja ottaa kolme askelta ja pysähtyy. Koira seuraa ja menee maahan ohjaajan pysähtyessä. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/219.png"
+  },
+  {
+    "id": "220",
+    "class": "avoin",
+    "points": 2,
+    "name": "PYÖRÄHDYS",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira tekee pyörähdyksen eteenpäin, ohjaajasta poispäin.",
+    "image": "signs/220.png"
+  },
+  {
+    "id": "221",
+    "class": "avoin",
+    "points": 2,
+    "name": "HOUKUTUS",
+    "area": "B",
+    "description": "Kaksi kartiota on asetettu 2,5–3 metrin päähän toisistaan. Kahden houkutuksen etäisyys toisistaan on 1,5–2 metriä. Kartiot ja houkutukset muodostavat vinoneliön. Koirakko kiertää kahdeksikon kartioiden ympäri tuomarin määräämällä tavalla ylittäen houkutusten välisen linjan kolme kertaa.",
+    "image": "signs/221.png"
+  },
+  {
+    "id": "222",
+    "class": "avoin",
+    "points": 2,
+    "name": "LÄHETYS ESTEEN YLI",
+    "area": "D",
+    "description": "Koira lähetetään hyppyesteen yli aikaisintaan kyltillä. Ohjaaja jatkaa matkaa esteen ohi.",
+    "image": "signs/222.png"
+  },
+  {
+    "id": "223",
+    "class": "avoin",
+    "points": 2,
+    "name": "KÄÄNNÖS VASEMPAAN, OHJAAJAN YMPÄRI",
+    "area": "B",
+    "description": "Ohjaaja tekee käännöksen vasempaan koiran kiertäessä pysähtymättä ohjaajan ympäri myötäpäivään.",
+    "image": "signs/223.png"
+  },
+  {
+    "id": "224",
+    "class": "avoin",
+    "points": 2,
+    "name": "SEISO, 1 ASKEL TAAKSE, SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira pysähtyy seisomaan ohjaajan viereen. Ohjaaja ottaa yhden askeleen taaksepäin koiran peruuttaessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira jää seisomaan ohjaajan viereen. Koira pysyy seisomassa, kunnes koirakko jatkaa eteenpäin.",
+    "image": "signs/224.png"
+  },
+  {
+    "id": "225",
+    "class": "avoin",
+    "points": 2,
+    "name": "VIISTO ASKEL VASEMPAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa yhden askeleen 45° etuviistoon vasempaan ja koira seuraa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa kyltin vasemmalta puolelta.",
+    "image": "signs/225.png"
+  },
+  {
+    "id": "301",
+    "class": "voittaja",
+    "points": 3,
+    "name": "SIVUASKEL OIKEAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa yhden askeleen oikeaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa kyltin oikealta puolelta.",
+    "image": "signs/301.png"
+  },
+  {
+    "id": "302",
+    "class": "voittaja",
+    "points": 3,
+    "name": "SIVUASKEL VASEMPAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa yhden askeleen vasempaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa kyltin vasemmalta puolelta.",
+    "image": "signs/302.png"
+  },
+  {
+    "id": "303",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, SIVUASKEL OIKEAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen oikeaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira istuu. Koirakko jatkaa kyltin oikealta puolelta.",
+    "image": "signs/303.png"
+  },
+  {
+    "id": "304",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, SIVUASKEL VASEMPAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askeleen vasempaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira istuu. Koirakko jatkaa kyltin vasemmalta puolelta.",
+    "image": "signs/304.png"
+  },
+  {
+    "id": "305",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, 1 ASKEL TAAKSE, ISTU, 2 ASKELTA TAAKSE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa yhden askelen taaksepäin ja pysähtyy, sitten kaksi askelta ja pysähtyy. Ohjaajan peruuttaessa koira peruuttaa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira istuu ohjaajan viereen.",
+    "image": "signs/305.png"
+  },
+  {
+    "id": "306",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ETEEN ISTU, 1 ASKEL TAAKSE, SEISO, 2 ASKELTA TAAKSE, ISTU, 3 ASKELTA TAAKSE, MAAHAN, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Ohjaajan peruuttaessa koira liikkuu mukana ohjaajan edessä ja ohjaajan pysähtyessä koira ottaa määrätyn asennon. Ohjaajan peruutettua yhden askeleen koira seisoo, ohjaajan peruutettua kaksi askelta koira istuu ja ohjaajan peruutettua kolme askelta koira menee maahan. Koira siirtyy ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/306.png"
+  },
+  {
+    "id": "307",
+    "class": "voittaja",
+    "points": 3,
+    "name": "SEISO, TÄYSKÄÄNNÖS OIKEAAN, SEISO",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira pysähtyy seisomaan ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen oikealle ja pysähtyy, koira jää seisomaan. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/307.png"
+  },
+  {
+    "id": "308",
+    "class": "voittaja",
+    "points": 3,
+    "name": "SEISO, TÄYSKÄÄNNÖS VASEMPAAN, SEISO",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira pysähtyy seisomaan ohjaajan viereen. Koirakko tekee yhdessä tiiviin täyskäännöksen vasemmalle ja pysähtyy, koira jää seisomaan. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/308.png"
+  },
+  {
+    "id": "309",
+    "class": "voittaja",
+    "points": 3,
+    "name": "SEISO, OHJAAJAN YMPÄRI, SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira pysähtyy seisomaan ohjaajan viereen. Koira kiertää ohjaajan ympäri etukautta ja palaa alkuperäiselle paikalleen ohjaajan viereen seisomaan. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/309.png"
+  },
+  {
+    "id": "310",
+    "class": "voittaja",
+    "points": 3,
+    "name": "TÄYSKÄÄNNÖS VASTAKKAIN",
+    "area": "B",
+    "description": "Koirakon liikkuessa molemmat tekevät tiiviin, samanaikaisen täyskäännöksen toisiaan kohti. Seuraamispuoli vaihtuu.",
+    "image": "signs/310.png"
+  },
+  {
+    "id": "311",
+    "class": "voittaja",
+    "points": 3,
+    "name": "PUOLENVAIHTO TAKAA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira tekee puolenvaihdon ohjaajan takaa. Koira ei saa pyörähtää puolenvaihdossa. Seuraamispuoli vaihtuu.",
+    "image": "signs/311.png"
+  },
+  {
+    "id": "312",
+    "class": "voittaja",
+    "points": 3,
+    "name": "PUOLENVAIHTO JALKOJEN VÄLISTÄ",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira tekee puolenvaihdon ohjaajan jalkojen välistä. Ohjaaja saa pysähtyä ja nostaa jalkaansa tehdäkseen puolenvaihdosta sujuvan. Seuraamispuoli vaihtuu.",
+    "image": "signs/312.png"
+  },
+  {
+    "id": "313",
+    "class": "voittaja",
+    "points": 3,
+    "name": "MOLEMMAT TÄYSKÄÄNNÖS OIKEAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa molemmat tekevät tiiviin, samanaikaisen täyskäännöksen oikeaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/313.png"
+  },
+  {
+    "id": "314",
+    "class": "voittaja",
+    "points": 3,
+    "name": "MOLEMMAT TÄYSKÄÄNNÖS VASEMPAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa molemmat tekevät tiiviin, samanaikaisen täyskäännöksen vasempaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/314.png"
+  },
+  {
+    "id": "315",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, PUOLENVAIHTO TAKAA, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira vaihtaa puolta ohjaajan takaa ja istuu. Koira ei saa pyörähtää puolta vaihtaessaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/315.png"
+  },
+  {
+    "id": "316",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, PUOLENVAIHTO EDESTÄ, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira vaihtaa puolta ohjaajan edestä ja istuu. Koiran pitää pyörähtää puolta vaihtaessaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/316.png"
+  },
+  {
+    "id": "317",
+    "class": "voittaja",
+    "points": 3,
+    "name": "LIIKKEESTÄ SEISO, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira pysähtyy seisomaan ja ohjaaja pysähtymättä kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy. Koira pysyy seisomassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/317.png"
+  },
+  {
+    "id": "318",
+    "class": "voittaja",
+    "points": 3,
+    "name": "LIIKKEESTÄ MAAHAN, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira menee maahan ja ohjaaja pysähtymättä kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/318.png"
+  },
+  {
+    "id": "319",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ISTU, SEISO, JÄTÄ KOIRA",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koira nousee seisomaan. Ohjaaja kävelee ilman koiraa joko kutsukyltille tai kutsukartion ohi (C) ja kutsuu koiran seuraamaan. Koira pysyy seisomassa, kunnes ohjaaja kutsuu koiraa. Kartiota käytettäessä luoksetulo on osa tätä tehtävää. Seuraamispuoli ei vaihdu.",
+    "image": "signs/319.png"
+  },
+  {
+    "id": "320",
+    "class": "voittaja",
+    "points": 3,
+    "name": "LÄHETYS KAHDEN ESTEEN YLI",
+    "area": "D",
+    "description": "Kaksi estettä on sijoitettu suoraan linjaan tai enintään 90° kulmaan neljän metrin etäisyydelle toisistaan. Koira lähetetään kahden hyppyesteen yli aikaisintaan kyltillä. Ohjaaja jatkaa matkaa esteen ohi.",
+    "image": "signs/320.png"
+  },
+  {
+    "id": "321",
+    "class": "voittaja",
+    "points": 3,
+    "name": "TÄYSKÄÄNNÖS, KUTSU",
+    "area": "B",
+    "description": "Tätä kylttiä voi käyttää vain kylttien 319, 408 ja 409 jälkeen. Kyltti on sijoitettu 3–5 metrin päähän edellisestä kyltistä. Ohjaaja tekee täyskäännöksen, pysähtyy ja kutsuu koiraa. Ohjaaja saa pysähtyä ennen täyskäännöstä. Koira tulee joko takaa tai suoraan ohjaajan vasemmalle puolelle ilman istumista. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/321.png"
+  },
+  {
+    "id": "322",
+    "class": "voittaja",
+    "points": 3,
+    "name": "TÄYSKÄÄNNÖS, KUTSU ETEEN, ISTU, OIKEALTA VASEMMALLE, ISTU",
+    "area": "B",
+    "description": "Tätä kylttiä voi käyttää vain kylttien 319, 408 ja 409 jälkeen. Kyltti on sijoitettu 3–5 metrin päähän edellisestä kyltistä. Ohjaaja tekee täyskäännöksen, pysähtyy ja kutsuu koiraa. Ohjaaja saa pysähtyä ennen täyskäännöstä. Koira istuu ohjaajan eteen ja siirtyy ohjaajan takaa vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/322.png"
+  },
+  {
+    "id": "323",
+    "class": "voittaja",
+    "points": 3,
+    "name": "TÄYSKÄÄNNÖS, KUTSU ETEEN, ISTU, VASEMMALTA VASEMMALLE, ISTU",
+    "area": "B",
+    "description": "Tätä kylttiä voi käyttää vain kylttien 319, 408 ja 409 jälkeen. Kyltti on sijoitettu 3–5 metrin päähän edellisestä kyltistä. Ohjaaja tekee täyskäännöksen, pysähtyy ja kutsuu koiraa. Ohjaaja saa pysähtyä ennen täyskäännöstä. Koira istuu ohjaajan eteen ja siitä suoraan ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/323.png"
+  },
+  {
+    "id": "324",
+    "class": "voittaja",
+    "points": 3,
+    "name": "KÄÄNNÖS OIKEAAN, OHJAAJAN YMPÄRI",
+    "area": "B",
+    "description": "Ohjaaja tekee käännöksen oikeaan koiran kiertäessä pysähtymättä ohjaajan ympäri vastapäivään.",
+    "image": "signs/324.png"
+  },
+  {
+    "id": "325",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ETEEN SEISO, OIKEALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira siirtyy seisomaan ohjaajan eteen ja siitä ohjaajan takaa vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/325.png"
+  },
+  {
+    "id": "326",
+    "class": "voittaja",
+    "points": 3,
+    "name": "ETEEN SEISO, VASEMMALTA VASEMMALLE, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira siirtyy seisomaan ohjaajan eteen. Koira siirtyy suoraan ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/326.png"
+  },
+  {
+    "id": "401",
+    "class": "mestari",
+    "points": 4,
+    "name": "2 SIVUASKELTA OIKEAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa kaksi askelta oikeaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa kyltin oikealta puolelta.",
+    "image": "signs/401.png"
+  },
+  {
+    "id": "402",
+    "class": "mestari",
+    "points": 4,
+    "name": "2 SIVUASKELTA VASEMPAAN",
+    "area": "B",
+    "description": "Koirakon liikkuessa ohjaaja ottaa kaksi askelta vasempaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Koirakko jatkaa kyltin vasemmalta puolelta.",
+    "image": "signs/402.png"
+  },
+  {
+    "id": "403",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, 2 SIVUASKELTA OIKEAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa kaksi askelta oikeaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira istuu. Koirakko jatkaa kyltin oikealta puolelta.",
+    "image": "signs/403.png"
+  },
+  {
+    "id": "404",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, 2 SIVUASKELTA VASEMPAAN, ISTU",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaaja ottaa kaksi askelta vasempaan koiran seuratessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa. Ohjaajan pysähtyessä koira istuu. Koirakko jatkaa kyltin vasemmalta puolelta.",
+    "image": "signs/404.png"
+  },
+  {
+    "id": "405",
+    "class": "mestari",
+    "points": 4,
+    "name": "TÄYSKÄÄNNÖS POISPÄIN",
+    "area": "B",
+    "description": "Koirakon liikkuessa molemmat tekevät tiiviin ja yhdenaikaisen täyskäännöksen poispäin toisistaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/405.png"
+  },
+  {
+    "id": "406",
+    "class": "mestari",
+    "points": 4,
+    "name": "PUOLENVAIHTO EDESTÄ",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira tekee puolenvaihdon ohjaajan edestä. Koira ei saa pyörähtää puolta vaihtaessaan. Seuraamispuoli vaihtuu.",
+    "image": "signs/406.png"
+  },
+  {
+    "id": "407",
+    "class": "mestari",
+    "points": 4,
+    "name": "LIIKKEESSÄ OHJAAJAN YMPÄRI",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira kiertää ohjaajan ympäri etukautta ja palaa alkuperäiselle seuraamispaikalleen.",
+    "image": "signs/407.png"
+  },
+  {
+    "id": "408",
+    "class": "mestari",
+    "points": 4,
+    "name": "LIIKKEESTÄ ISTU, JÄTÄ KOIRA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira istuu ja ohjaaja jatkaa pysähtymättä joko kutsukyltille tai kutsukartion ohi (C) ja kutsuu koiran seuraamaan. Koira pysyy istumassa, kunnes ohjaaja kutsuu koiraa. Kartiota käytettäessä luoksetulo on osa tätä tehtävää. Seuraamispuoli ei vaihdu.",
+    "image": "signs/408.png"
+  },
+  {
+    "id": "409",
+    "class": "mestari",
+    "points": 4,
+    "name": "LIIKKEESTÄ MAAHAN, JÄTÄ KOIRA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira menee maahan ja ohjaaja jatkaa pysähtymättä joko kutsukyltille tai kutsukartion ohi (C) ja kutsuu koiran seuraamaan. Koira pysyy maassa, kunnes ohjaaja kutsuu koiraa. Kartiota käytettäessä luoksetulo on osa tätä tehtävää. Seuraamispuoli ei vaihdu.",
+    "image": "signs/409.png"
+  },
+  {
+    "id": "410",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, LÄHETÄ KOIRA, SEISO, KUTSU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko saa pysähtyessään kääntyä kohti kartiota. Ohjaaja lähettää koiran seisomaan kartion luo. Koira pysyy seisomassa kartion luona, kun ohjaaja kävelee kutsukartion ohi (C) ja kutsuu koiran seuraamaan. Seuraamispuoli ei vaihdu.",
+    "image": "signs/410.png"
+  },
+  {
+    "id": "411",
+    "class": "mestari",
+    "points": 4,
+    "name": "ETEEN SEISO, PERUUTA, SEISO",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira siirtyy ohjaajan eteen seisomaan. Koira peruuttaa vähintään kolme rungonmittaansa poispäin ohjaajasta ja pysähtyy seisomaan. Ohjaaja kävelee rataa eteenpäin koiran luo/linjalle ja kutsuu pysähtymättä koiran vasemmalle seuraamispuolelle. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/411.png"
+  },
+  {
+    "id": "412",
+    "class": "mestari",
+    "points": 4,
+    "name": "3 ASKELTA TAAKSE",
+    "area": "A",
+    "description": "Koirakon liikkuessa ohjaaja ottaa vähintään kolme askelta taaksepäin koiran peruuttaessa samassa linjassa ja rintamasuunnassa ohjaajan kanssa.",
+    "image": "signs/412.png"
+  },
+  {
+    "id": "413",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, 1 ASKEL TAAKSE SEISO, 2 ASKELTA TAAKSE ISTU, 3 ASKELTA TAAKSE MAAHAN",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Ohjaajan peruuttaessa koira peruuttaa samassa linjassa ja rintamasuunnassa ohjaajan vieressä ja ohjaajan pysähtyessä koira ottaa määrätyn asennon. Ohjaajan peruutettua yhden askeleen koira seisoo, ohjaajan peruutettua kaksi askelta koira istuu ja ohjaajan peruutettua kolme askelta koira menee maahan. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/413.png"
+  },
+  {
+    "id": "414",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, KÄÄNNÖS OIKEAAN, SEISO, KÄÄNNÖS OIKEAAN, ISTU, KÄÄNNÖS OIKEAAN, MAAHAN",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä käännöksen oikeaan, pysähtyy ja koira seisoo. Koirakko tekee yhdessä käännöksen oikeaan, pysähtyy ja koira istuu. Koirakko tekee yhdessä käännöksen oikeaan, pysähtyy ja koira menee maahan. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/414.png"
+  },
+  {
+    "id": "415",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, KÄÄNNÖS VASEMPAAN, SEISO, KÄÄNNÖS VASEMPAAN, ISTU, KÄÄNNÖS VASEMPAAN, MAAHAN",
+    "area": "B",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan viereen. Koirakko tekee yhdessä käännöksen vasempaan, pysähtyy ja koira seisoo. Koirakko tekee yhdessä käännöksen vasempaan, pysähtyy ja koira istuu. Koirakko tekee yhdessä käännöksen vasempaan, pysähtyy ja koira menee maahan. Koira pysyy maassa, kunnes koirakko lähtee liikkeelle.",
+    "image": "signs/415.png"
+  },
+  {
+    "id": "416",
+    "class": "mestari",
+    "points": 4,
+    "name": "ETEEN ISTU, SIVUASKEL VASEMPAAN, ISTU, SIVUASKEL OIKEAAN, ISTU",
+    "area": "A",
+    "description": "Ohjaajan pysähtyessä koira istuu ohjaajan eteen. Ohjaaja ottaa yhden askeleen vasempaan koiran siirtyessä mukana samassa linjassa ohjaajan edessä. Koira istuu ohjaajan eteen, kun ohjaaja pysähtyy. Ohjaaja ottaa yhden askeleen oikeaan koiran siirtyessä mukana samassa linjassa ohjaajan edessä. Koira istuu ohjaajan eteen, kun ohjaaja pysähtyy. Koira siirtyy ohjaajan vasemmalle puolelle istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/416.png"
+  },
+  {
+    "id": "417",
+    "class": "mestari",
+    "points": 4,
+    "name": "KÄÄNNÖS VASEMPAAN, KARTION YMPÄRI",
+    "area": "A",
+    "description": "Koirakon liikkuessa ohjaaja lähettää koiran kiertämään kartion myötäpäivään. Koiran tulee aloittaa kartiolle lähestyminen ennen kuin ohjaaja on kyltin kohdalla. Ohjaaja tekee käännöksen vasempaan ennen kartiota ja koira tulee kartion kierrettyään ohjaajan oikealle puolelle seuraamaan. Ohjaaja saa hidastaa tahtiaan koiran kiertäessä kartiota. Seuraamispuoli vaihtuu.",
+    "image": "signs/417.png"
+  },
+  {
+    "id": "418",
+    "class": "mestari",
+    "points": 4,
+    "name": "KÄÄNNÖS OIKEAAN, KARTION YMPÄRI",
+    "area": "A",
+    "description": "Koirakon liikkuessa ohjaaja lähettää koiran kiertämään kartion vastapäivään. Koiran tulee aloittaa kartiolle lähestyminen ennen kuin ohjaaja on kyltin kohdalla. Ohjaaja tekee käännöksen oikeaan ennen kartiota ja koira tulee kartion kierrettyään ohjaajan vasemmalle puolelle seuraamaan. Ohjaaja saa hidastaa tahtiaan koiran kiertäessä kartiota. Seuraamispuoli vaihtuu.",
+    "image": "signs/418.png"
+  },
+  {
+    "id": "419",
+    "class": "mestari",
+    "points": 4,
+    "name": "LIIKKEESTÄ ISTU, KIERRÄ KOIRA",
+    "area": "A",
+    "description": "Koirakon liikkuessa koira istuu ja ohjaaja pysähtymättä kiertää koiran ympäri etukautta, palaa koiran viereen ja pysähtyy.",
+    "image": "signs/419.png"
+  },
+  {
+    "id": "420",
+    "class": "mestari",
+    "points": 4,
+    "name": "ISTU, KUTSU ESTEEN YLI",
+    "area": "A+D",
+    "description": "Koirakko pysähtyy kyltin viereen ja koira istuu. Ohjaaja kävelee ilman koiraa esteen ohi ja kutsuu koiraa. Koira hyppää esteen yli ja palaa seuraamaan. Seuraamispuoli ei vaihdu. Ohjaaja saa kutsuttuaan hidastaa.",
+    "image": "signs/420.png"
+  },
+  {
+    "id": "421",
+    "class": "mestari",
+    "points": 4,
+    "name": "TÄYSKÄÄNNÖS, KUTSU ESTEEN YLI",
+    "area": "B",
+    "description": "Tätä kylttiä voi käyttää vain kylttien 319, 408 ja 409 jälkeen. Ohjaaja tekee täyskäännöksen, pysähtyy ja kutsuu koiraa. Ohjaaja saa pysähtyä ennen täyskäännöstä. Ohjaaja kutsuu koiran esteen yli vasemmalle puolelleen ilman istumista. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/421.png"
+  },
+  {
+    "id": "422",
+    "class": "mestari",
+    "points": 4,
+    "name": "TÄYSKÄÄNNÖS, PERUUTA, ISTU, MAAHAN, KUTSU, ISTU",
+    "area": "B",
+    "description": "Tätä kylttiä voi käyttää vain kylttien 319, 408 ja 409 jälkeen. Ohjaaja tekee täyskäännöksen ja pysähtyy. Ohjaaja saa pysähtyä ennen täyskäännöstä. Koira peruuttaa vähintään yhden rungonmittansa ja istuu, josta menee maahan. Ohjaaja kutsuu koiran vasemmalle puolelleen istumaan. Seuraaminen jatkuu vasemmalla.",
+    "image": "signs/422.png"
+  }
+]

@@ -1,0 +1,185 @@
+<!-- Editorin käyttöohje. Ohjepaneeli (src/ui/help.js) lisää tämän sisällön sellaisenaan:
+     ei skriptejä eikä style-määritteitä (CSP). Otsikot, joilla on id, tulevat sisällysluetteloon.
+     Linkit muotoa #help-k3-5 vievät kilpailuohjeen lukuun ja #help-sign-101 tehtäväkuvaukseen. -->
+<h2 id="help-kaytto">Käyttöohje</h2>
+
+<h3 id="help-kaytto-aloitus">Aloitus ja näkymän osat</h3>
+<p>Editorilla suunnitellaan rally-tokon kilpailuratoja virallisen ratapohjan näköisinä. Rata tallennetaan
+omalle koneelle <code>.rally</code>-tiedostona, ja sen voi tulostaa tai viedä PDF-, PNG- tai SVG-muodossa.</p>
+<ul>
+  <li><strong>Yläpalkki:</strong> valikot (Tiedosto, Muokkaa, Ohje) sekä radan luokka, lähtöpuoli ja kehän koko.</li>
+  <li><strong>Vasen paneeli:</strong> kyltti- ja välinepaletit. Paletissa näkyvät vain valitun luokan sallimat kyltit.</li>
+  <li><strong>Kehä:</strong> ratapiirros metrin ruudukolla, otsikko ylhäällä ja kooste alhaalla.</li>
+  <li><strong>Työkalurivi:</strong> kumoa ja tee uudelleen, työkalut (Valitse, Nuoli), nuolitila ja numeroiden sijoittelu.</li>
+  <li><strong>Oikea paneeli:</strong> Ominaisuudet, Tehtävälista, Radan tiedot ja Validointi.</li>
+  <li><strong>Tilarivi:</strong> tehtävien määrä, validoinnin tulos, nuolitila ja tallennuksen tila.</li>
+</ul>
+<p>Aloita valitsemalla luokka (alokas, avoin, voittaja tai mestari) ja kehän koko. Kehän koon voi valita
+valmiista vaihtoehdoista tai antaa vapaat mitat. Luokan voi vaihtaa myöhemmin; sopimattomat kyltit näkyvät
+silloin validoinnissa virheinä.</p>
+
+<h3 id="help-kaytto-kyltit">Kylttien lisääminen ja muokkaaminen</h3>
+<ul>
+  <li><strong>Lisääminen:</strong> vedä kyltti paletista kehään tai kaksoisklikkaa sitä, jolloin kyltti sijoitetaan kehän keskiosaan.
+    Kyltit saavat suoritusjärjestyksen lisäysjärjestyksessä. Lähtö ja maali eivät saa numeroa.</li>
+  <li><strong>Haku:</strong> paletin hakukenttä etsii numerolla tai nimellä. Kun vie hiiren kyltin päälle,
+    paletin alaosaan tulee tehtävän kuvaus ja linkki kilpailuohjeen tehtäväkuvaukseen.</li>
+  <li><strong>Siirtäminen:</strong> vedä kylttiä hiirellä tai siirrä valittua kylttiä nuolinäppäimillä
+    (10 cm, Shift = 1 m).</li>
+  <li><strong>Kiertäminen:</strong> R kiertää 90° (Shift+R vastapäivään). Ominaisuuksissa kierron voi antaa
+    asteina, ja kyltin kahvasta voi kiertää vapaasti.</li>
+  <li><strong>Suoritusjärjestys:</strong> muuta numeroa ominaisuuksissa, käytä Tehtävälistan nuolipainikkeita
+    tai Alt+↑ / Alt+↓.</li>
+  <li><strong>Numeropallo:</strong> numeron voi vetää sopivaan kohtaan. Painike <em>Numerot nuolten kärkiin</em>
+    siirtää kaikki numerot nuolten kärkien jatkeelle, jotta kärjet jäävät näkyviin.</li>
+  <li><strong>Poistaminen:</strong> Delete tai ominaisuuksien Poista-painike.</li>
+</ul>
+
+<h3 id="help-kaytto-vaihto">Kyltin vaihtaminen</h3>
+<p>Valitse kyltti ja käytä ominaisuuksien kohtaa <em>Vaihda kyltti</em>. Paikka, kierto, suoritusjärjestys
+ja numero säilyvät.</p>
+<ul>
+  <li><strong>Valintalista:</strong> valitse uusi kyltti listasta, niin vaihto tapahtuu heti.</li>
+  <li><strong>Vaihda paletista…:</strong> paletti siirtyy vaihtotilaan (oranssi palkki). Kaksoisklikkaa
+    uutta kylttiä, paina Enter tai vedä kyltti radalla olevan kyltin päälle. Esc tai Peruuta lopettaa.</li>
+  <li>Välineet, joita uusi tehtävä ei käytä, irrotetaan tehtävästä mutta jätetään kehään.</li>
+</ul>
+
+<h3 id="help-kaytto-nuolet">Nuolet</h3>
+<p>Nuolilla on kaksi tilaa, jotka näkyvät työkalurivin värimerkissä ja tilarivillä.</p>
+<ul>
+  <li><strong>Automaattiset (vihreä):</strong> suoritusjärjestyksen nuolet piirtyvät kyltiltä seuraavalle ja
+    seuraavat kylttejä, kun niitä siirretään.</li>
+  <li><strong>Muokattavat (oranssi):</strong> <em>Muuta muokattaviksi</em> tekee nuolista tavallisia nuolia,
+    joita voi taivuttaa ja siirtää. Ne eivät enää seuraa kylttejä. Muunnetut nuolet näkyvät editorissa
+    oransseina, tulosteessa tavallisina.</li>
+  <li><strong>Palauta automaattisiksi…</strong> kysyy vahvistuksen ja poistaa muunnetut nuolet. Itse piirretyt
+    nuolet säilyvät.</li>
+  <li><strong>Lisää puuttuvat nuolet</strong> (muokattavassa tilassa) lisää nuolen kyltteihin, jotka on
+    lisätty muunnoksen jälkeen.</li>
+  <li><strong>Nuolityökalu (A):</strong> klikkaa kehään nuolen pisteet. Kaksoisklikkaus tai Enter lopettaa,
+    Esc peruuttaa. Valitun nuolen pisteitä voi vetää.</li>
+</ul>
+
+<h3 id="help-kaytto-valineet">Välineet, merkinnät ja muistiinpanot</h3>
+<ul>
+  <li><strong>Välineet-välilehti:</strong> kartiot (15 cm ja 40–50 cm), kutsukartio, hyppyeste ja houkutus.
+    Piirrostyylinä on joko virallinen ratapohjan symboli tai kuvitettu versio.</li>
+  <li><strong>Valmiit ryhmät:</strong> pujottelu, spiraali, kahdeksikko ja houkutusasetelma lisätään oikein
+    mitoitettuina. Ryhmää siirretään ja kierretään (R = 15°) yhtenä kokonaisuutena, ja ryhmän voi purkaa.</li>
+  <li><strong>Liittäminen tehtävään:</strong> uusi väline liitetään lähimpään sitä käyttävään tehtävään.
+    Liitoksen voi muuttaa välineen ominaisuuksissa (<em>Tehtävä, jota väline palvelee</em>).
+    Validointi tarkistaa liitettyjen välineiden etäisyydet.</li>
+  <li><strong>Merkinnät:</strong> <em>Koira vasemmalla</em> ja <em>Koira oikealla</em> kertovat seuraamispuolen
+    kehään tultaessa. V- ja O-pallot ovat vapaaehtoisia puolimerkintöjä tehtäville.</li>
+  <li><strong>Muistiinpano:</strong> vapaa teksti ratapiirrokseen. Tekstiä muokataan kaksoisklikkaamalla
+    tai ominaisuuksissa.</li>
+</ul>
+
+<h3 id="help-kaytto-monivalinta">Monivalinta ja ryhmäsiirto</h3>
+<ul>
+  <li>Vedä tyhjästä kohdasta valintasuorakaide: valituksi tulevat elementit, jotka ovat kokonaan sen sisällä.</li>
+  <li>Shift+klikkaus lisää elementin valintaan tai poistaa sen. Ctrl+A valitsee kaikki.</li>
+  <li>Vedä mitä tahansa valittua elementtiä tai käytä nuolinäppäimiä: koko valinta siirtyy, eikä mikään
+    elementti mene kehän ulkopuolelle.</li>
+  <li>Delete poistaa kaikki valitut. Esc tai klikkaus tyhjään tyhjentää valinnan.</li>
+</ul>
+
+<h3 id="help-kaytto-tiedot">Radan tiedot, otsikko ja kooste</h3>
+<ul>
+  <li><strong>Radan tiedot</strong> -välilehti: luokkateksti, kilpailutyyppi, päivämäärä, paikka, tuomari ja huomiot
+    sekä ratapiirroksen asetukset (otsikko ja kooste, värit pisteiden mukaan, V/O-pallot, koiran puolen väritys numeropalloissa (vihreä = koira oikealla; puolta vaihtavassa tehtävässä pallo on puoliksi vihreä: vasen puolikas kertoo alun ja oikea lopun, ja V/O-pallossa lukee V/O tai O/V), ruudukko,
+    metrimerkinnät, kehän reunaviiva).</li>
+  <li>Kehän otsikon osaa klikkaamalla pääsee suoraan muokkaamaan sen tietoja.</li>
+  <li><strong>Lähtöpuoli:</strong> voittaja- ja mestariluokassa valitaan, onko koira kehään tultaessa vasemmalla vai
+    oikealla. Alokas- ja avoimessa luokassa koira on aina vasemmalla
+    (<a href="#help-k3-5">kilpailuohje 3.5</a>). Valinta löytyy yläpalkista ja lähtökyltin ominaisuuksista.</li>
+  <li>Kooste kehän alla luettelee tehtävät suoritusjärjestyksessä.</li>
+</ul>
+
+<h3 id="help-kaytto-validointi">Validointi</h3>
+<p>Editori tarkistaa radan jokaisen muutoksen jälkeen kilpailuohjeen sääntöjä vasten.</p>
+<ul>
+  <li><strong>Virhe</strong> (punainen): rata ei ole sääntöjen mukainen, esimerkiksi liian vähän tehtäviä tai
+    luokkaan kuulumaton kyltti.</li>
+  <li><strong>Varoitus</strong> (oranssi): arviomitta tai suositus, esimerkiksi kylttien väli. Ohjeen mukaan
+    etäisyydet ovat arviomittoja.</li>
+  <li>Validointi-välilehden rivin klikkaus valitsee kyseisen kyltin tai välineen. Viitteen
+    (esim. <em>3.5</em>) klikkaus avaa kilpailuohjeen kohdan tässä ohjeessa.</li>
+  <li>Kaikki tarkistukset on lueteltu kohdassa <a href="#help-tarkistukset">Editorin tarkistukset</a>.</li>
+</ul>
+
+<h3 id="help-kaytto-tiedostot">Tallennus ja tiedostot</h3>
+<ul>
+  <li><strong>Tallenna (Ctrl+S)</strong> tallentaa radan <code>.rally</code>-tiedostoon ja <strong>Tallenna
+    nimellä (Ctrl+Shift+S)</strong> uuteen tiedostoon. Selaimesta riippuen tiedosto tallennetaan suoraan tai
+    ladataan Lataukset-kansioon.</li>
+  <li><strong>Avaa (Ctrl+O)</strong> avaa <code>.rally</code>-tiedoston. Tiedoston voi myös vetää selainikkunaan.</li>
+  <li>Keskeneräinen rata tallentuu automaattisesti selaimeen, ja se palautetaan, kun editori avataan uudelleen.
+    Tämä ei korvaa tallennusta tiedostoon.</li>
+  <li>Selain varoittaa, jos sivulta poistutaan ennen kuin muutokset on tallennettu.</li>
+</ul>
+
+<h3 id="help-kaytto-tulostus">Tulostus ja kuvat</h3>
+<ul>
+  <li><strong>Tulostusnäkymä / PDF (Ctrl+P)</strong> näyttää ratapiirroksen A4-vaakasivuna. <em>Tulosta / PDF</em>
+    avaa selaimen tulostusikkunan, josta piirroksen voi tallentaa PDF:ksi.</li>
+  <li><strong>Vie kuvana (PNG)</strong> tallentaa tarkan kuvan (A4, 300 dpi) ja <strong>Vie vektorikuvana (SVG)</strong>
+    skaalautuvan kuvan.</li>
+</ul>
+
+<h3 id="help-kaytto-kumoa">Kumoa ja tee uudelleen</h3>
+<p>Ctrl+Z kumoaa ja Ctrl+Y (tai Ctrl+Shift+Z) tekee uudelleen. Jokainen veto, siirto ja muutos on oma
+askeleensa, ja kumota voi 100 askelta. Uusi rata ja tiedoston avaaminen tyhjentävät historian.</p>
+
+<h3 id="help-kaytto-pikanappaimet">Pikanäppäimet</h3>
+<table>
+  <thead><tr><th>Näppäin</th><th>Toiminto</th></tr></thead>
+  <tbody>
+    <tr><td><kbd>F1</kbd></td><td>Avaa tai sulje ohje</td></tr>
+    <tr><td><kbd>Ctrl+S</kbd> / <kbd>Ctrl+Shift+S</kbd></td><td>Tallenna / Tallenna nimellä</td></tr>
+    <tr><td><kbd>Ctrl+O</kbd></td><td>Avaa rata</td></tr>
+    <tr><td><kbd>Ctrl+P</kbd></td><td>Tulostusnäkymä</td></tr>
+    <tr><td><kbd>Ctrl+Z</kbd> / <kbd>Ctrl+Y</kbd></td><td>Kumoa / Tee uudelleen</td></tr>
+    <tr><td><kbd>Ctrl+A</kbd></td><td>Valitse kaikki</td></tr>
+    <tr><td><kbd>V</kbd> / <kbd>A</kbd></td><td>Valintatyökalu / Nuolityökalu</td></tr>
+    <tr><td><kbd>Delete</kbd></td><td>Poista valitut</td></tr>
+    <tr><td><kbd>R</kbd> / <kbd>Shift+R</kbd></td><td>Kierrä 90° (ryhmä 15°) myötä- / vastapäivään</td></tr>
+    <tr><td>Nuolinäppäimet</td><td>Siirrä valittuja 10 cm (Shift = 1 m)</td></tr>
+    <tr><td><kbd>Alt+↑</kbd> / <kbd>Alt+↓</kbd></td><td>Siirrä kylttiä suoritusjärjestyksessä</td></tr>
+    <tr><td><kbd>Enter</kbd></td><td>Lopeta nuolen piirto</td></tr>
+    <tr><td><kbd>Esc</kbd></td><td>Peruuta piirto, vaihtotila tai valinta</td></tr>
+    <tr><td>Shift+klikkaus</td><td>Lisää valintaan tai poista valinnasta</td></tr>
+  </tbody>
+</table>
+<p>Ohjeen haussa <kbd>Enter</kbd> siirtyy seuraavaan osumaan ja <kbd>Shift+Enter</kbd> edelliseen.
+<kbd>Esc</kbd> tyhjentää haun ja toisella painalluksella sulkee ohjeen.</p>
+
+<h2 id="help-tarkistukset">Editorin tarkistukset</h2>
+<p>Validointi tarkistaa seuraavat säännöt. <strong>Virhe</strong> tarkoittaa, että rata ei ole kilpailuohjeen
+mukainen; <strong>varoitus</strong> koskee arviomittoja ja suosituksia. Etäisyyksissä sallitaan 0,25 m poikkeama
+väleistä (esim. 3–5 m) ja 0,5 m täsmällisistä mitoista (esim. 5 m). Kylttien etäisyys mitataan keskipisteiden välillä.</p>
+<table class="help-rules">
+  <thead><tr><th>#</th><th>Tarkistus</th><th>Taso</th><th>Ohje</th></tr></thead>
+  <tbody>
+    <tr><td>V1</td><td>Radalla on tasan yksi lähtö ja yksi maali.</td><td>Virhe</td><td><a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V2</td><td>Tehtävien määrä ilman lähtöä ja maalia: alokas 10–15, avoin 12–17, voittaja 15–20, mestari 18–20.</td><td>Virhe</td><td><a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V3</td><td>Samaa tehtävää enintään kaksi kertaa.</td><td>Virhe</td><td><a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V4</td><td>Luokan sallitut kyltit: alokas 101–136 paitsi 114 ja 115, avoin ≤ 225, voittaja ≤ 326, mestari ≤ 422.</td><td>Virhe</td><td><a href="#help-k3-5-1">3.5.1</a></td></tr>
+    <tr><td>V5</td><td>Pistevaatimukset: avoin ≥ 5 × 2 p; voittaja ≥ 5 × 3 p ja ≥ 3 × 2 p; mestari ≥ 5 × 4 p, ≥ 3 × 3 p ja ≥ 3 × 2 p.</td><td>Virhe</td><td><a href="#help-k3-5-1">3.5.1</a></td></tr>
+    <tr><td>V6</td><td>Alokas- ja avoimessa luokassa seuraaminen vasemmalla; voittaja- ja mestariluokassa lähtöpuoli on ilmoitettava.</td><td>Virhe</td><td><a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V7</td><td>Seuraamispuoli lasketaan kyltti kyltiltä: voittajaluokassa oikealla kielletyt tehtävät; 223 alkaa vasemmalta, 324 oikealta, 417 vasemmalta ja 418 oikealta.</td><td>Virhe</td><td><a href="#help-k3-5">3.5</a>, <a href="#help-k3-5-1">3.5.1</a>, <a href="#help-k5">5</a></td></tr>
+    <tr><td>V8</td><td>321, 322, 323, 421 ja 422 vain heti tehtävän 319, 408 tai 409 jälkeen.</td><td>Virhe</td><td><a href="#help-k5">5</a></td></tr>
+    <tr><td>V9</td><td>Tehtävien 319, 408 ja 409 jälkeen kutsukyltti tai kutsukartio.</td><td>Virhe</td><td><a href="#help-k4-3">4.3</a>, <a href="#help-k4-9">4.9</a></td></tr>
+    <tr><td>V10</td><td>Hitaan käynnin tai juoksun (116, 117) aikana vain tehtäviä 105–113, 123 ja 124, kunnes tulee 116, 117, 118 tai maali.</td><td>Virhe</td><td><a href="#help-k4-2">4.2</a></td></tr>
+    <tr><td>V11</td><td>Radalla enintään kaksi hyppyestettä; hyppytehtävällä on este.</td><td>Virhe</td><td><a href="#help-k3-4-4">3.4.4</a>, <a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V12</td><td>Tehtävänumerot 1–20 (lähtöä ja maalia ei numeroida); kylttitelineitä enintään 22.</td><td>Virhe</td><td><a href="#help-k3-4-2">3.4.2</a>, <a href="#help-k3-4-3">3.4.3</a></td></tr>
+    <tr><td>V13</td><td>Suoritusjärjestys on yhtenäinen: lähtö ensin ja maali viimeisenä.</td><td>Virhe</td><td><a href="#help-k4-1">4.1</a></td></tr>
+    <tr><td>V14</td><td>Kylttien väli 3–5 m; 321–323 3–5 m edellisestä; 421 8 m edellisestä; kutsukartio 5 m edellisen kyltin jälkeen ja 1 m kulkulinjasta; seuraava kyltti 5 m kutsukartiosta tai kutsukyltistä.</td><td>Varoitus</td><td><a href="#help-k3-5">3.5</a>, <a href="#help-k4-3">4.3</a>, <a href="#help-k4-9">4.9</a></td></tr>
+    <tr><td>V15</td><td>Välineiden sijainti: kartiotehtävät, 410, 417 ja 418, hyppytehtävät (kyltti 2 m ennen estettä, 2 m laskeutumisalue) ja 320 (esteet 4 m välein).</td><td>Varoitus</td><td><a href="#help-k3-5">3.5</a>, <a href="#help-k4-3">4.3</a>, <a href="#help-k4-8">4.8</a></td></tr>
+    <tr><td>V16</td><td>Hyppyeste on koiran seuraamispuolella.</td><td>Varoitus</td><td><a href="#help-k3-5">3.5</a></td></tr>
+    <tr><td>V17</td><td>Tehtävän välineet puuttuvat (esim. 121 ilman neljää kartiota).</td><td>Varoitus</td><td><a href="#help-k3-4-5">3.4.5</a>, <a href="#help-k5">5</a></td></tr>
+    <tr><td>V18</td><td>Pieniä kartioita enintään 15 ja isoja enintään 3.</td><td>Varoitus</td><td><a href="#help-k3-4">3.4</a>, <a href="#help-k3-4-5">3.4.5</a></td></tr>
+    <tr><td>V19</td><td>Kehän sivut ≥ 15 m ja pinta-ala ≥ 200 m² (ALO, AVO) tai ≥ 300 m² (VOI, MES); muuten mitat hyväksytetään tuomarilla.</td><td>Varoitus</td><td><a href="#help-k3-2">3.2</a></td></tr>
+  </tbody>
+</table>

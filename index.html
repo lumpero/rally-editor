@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Sama käytäntö kuin deploy/nginx.conf-otsakkeissa (frame-ancestors toimii vain otsakkeena);
+       tarvitaan GitHub Pagesissa, joka ei salli omia HTTP-otsakkeita. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Rally-toko-rataeditori</title>
+  <link rel="stylesheet" href="styles.min.css">
+  <script type="module" src="app.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="app-title">Rally-toko-rataeditori</h1>
+    <nav class="menubar" aria-label="Valikot">
+      <div class="menu">
+        <button type="button" id="menu-file" aria-haspopup="true" aria-expanded="false">Tiedosto ▾</button>
+        <div role="menu" aria-labelledby="menu-file" hidden>
+          <button type="button" role="menuitem" data-action="newCourse">Uusi rata</button>
+          <button type="button" role="menuitem" data-action="open">Avaa… <kbd>Ctrl+O</kbd></button>
+          <button type="button" role="menuitem" data-action="save">Tallenna <kbd>Ctrl+S</kbd></button>
+          <button type="button" role="menuitem" data-action="saveAs">Tallenna nimellä… <kbd>Ctrl+Shift+S</kbd></button>
+          <hr>
+          <button type="button" role="menuitem" data-action="printPreview">Tulostusnäkymä / PDF… <kbd>Ctrl+P</kbd></button>
+          <button type="button" role="menuitem" data-action="exportPng">Vie kuvana (PNG)</button>
+          <button type="button" role="menuitem" data-action="exportSvg">Vie vektorikuvana (SVG)</button>
+        </div>
+      </div>
+      <div class="menu">
+        <button type="button" id="menu-edit" aria-haspopup="true" aria-expanded="false">Muokkaa ▾</button>
+        <div role="menu" aria-labelledby="menu-edit" hidden>
+          <button type="button" role="menuitem" data-action="undo">Kumoa <kbd>Ctrl+Z</kbd></button>
+          <button type="button" role="menuitem" data-action="redo">Tee uudelleen <kbd>Ctrl+Y</kbd></button>
+          <button type="button" role="menuitem" data-action="selectAll">Valitse kaikki <kbd>Ctrl+A</kbd></button>
+          <button type="button" role="menuitem" data-action="deleteSelected">Poista valitut <kbd>Delete</kbd></button>
+        </div>
+      </div>
+      <div class="menu">
+        <button type="button" id="menu-help" aria-haspopup="true" aria-expanded="false">Ohje ▾</button>
+        <div role="menu" aria-labelledby="menu-help" hidden>
+          <button type="button" role="menuitem" data-action="help">Käyttöohje <kbd>F1</kbd></button>
+          <button type="button" role="menuitem" data-action="helpShortcuts">Pikanäppäimet</button>
+          <button type="button" role="menuitem" data-action="helpChecks">Editorin tarkistukset</button>
+          <hr>
+          <button type="button" role="menuitem" data-action="helpGeneral">Yleiset ohjeet ja kilpailun järjestäminen (1–2)</button>
+          <button type="button" role="menuitem" data-action="helpRules">Radan suunnittelu (3.5)</button>
+          <button type="button" role="menuitem" data-action="helpPerformance">Yleiset suoritusohjeet (4)</button>
+          <button type="button" role="menuitem" data-action="helpSigns">Tehtäväkuvaukset (5)</button>
+          <button type="button" role="menuitem" data-action="helpScoring">Arvostelu ja pistevähennykset (6)</button>
+          <hr>
+          <button type="button" role="menuitem" data-action="helpAbout">Tietoja</button>
+        </div>
+      </div>
+    </nav>
+    <input type="file" id="open-file-input" accept=".rally,application/json" hidden>
+    <div class="topbar-controls">
+      <label class="field inline">Luokka
+        <select id="course-class"></select>
+      </label>
+      <label class="field inline">Lähtöpuoli
+        <select id="start-side"></select>
+      </label>
+      <label class="field inline">Kehä
+        <select id="ring-preset"></select>
+      </label>
+      <span id="ring-custom" class="ring-custom" hidden>
+        <input id="ring-width" type="number" min="1" step="0.5" aria-label="Kehän leveys (m)"> ×
+        <input id="ring-height" type="number" min="1" step="0.5" aria-label="Kehän korkeus (m)"> m
+      </span>
+    </div>
+  </header>
+
+  <aside id="palette" class="panel">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-signs" aria-controls="sign-panel">Kyltit</button>
+      <button type="button" role="tab" id="tab-equipment" aria-controls="equipment-panel">Välineet</button>
+    </div>
+    <div id="sign-panel" class="palette-panel" role="tabpanel" aria-labelledby="tab-signs">
+      <div id="replace-banner" class="replace-banner" role="status" hidden>
+        <span id="replace-text"></span>
+        <button type="button" id="replace-cancel" title="Peruuta (Esc)">Peruuta</button>
+      </div>
+      <input id="sign-search" type="search" placeholder="Hae numerolla tai nimellä" aria-label="Hae kylttiä">
+      <div id="palette-list"></div>
+      <div id="sign-info" class="sign-info" aria-live="polite"></div>
+    </div>
+    <div id="equipment-panel" class="palette-panel" role="tabpanel" aria-labelledby="tab-equipment" hidden>
+      <div id="equipment-list"></div>
+      <div id="equipment-info" class="sign-info" aria-live="polite"></div>
+    </div>
+  </aside>
+
+  <main class="ring-area">
+    <svg id="ring" role="application" aria-label="Kilpailukehä"></svg>
+    <div id="toolbar" class="toolbar">
+      <div class="tool-group" role="group" aria-label="Kumoa ja tee uudelleen">
+        <button type="button" id="undo" data-action="undo" title="Kumoa (Ctrl+Z)" aria-label="Kumoa">↶</button>
+        <button type="button" id="redo" data-action="redo" title="Tee uudelleen (Ctrl+Y)" aria-label="Tee uudelleen">↷</button>
+      </div>
+      <div class="tool-group" role="group" aria-label="Työkalu">
+        <button type="button" id="tool-select" data-tool="select" title="Valitse ja siirrä (V)">Valitse</button>
+        <button type="button" id="tool-arrow" data-tool="arrow" title="Piirrä nuoli (A)">Nuoli</button>
+      </div>
+      <span class="arrow-mode-group">
+        <span id="arrow-mode" class="mode-chip"></span>
+        <button type="button" id="arrow-mode-toggle"></button>
+        <button type="button" id="add-missing-arrows" title="Lisää muokattava nuoli peräkkäisille kylteille, joilla sitä ei vielä ole" hidden>Lisää puuttuvat nuolet</button>
+      </span>
+      <button type="button" id="place-numbers" title="Siirrä numeropallot nuolten kärkien jatkeelle, jotta kärjet jäävät näkyviin">Numerot nuolten kärkiin</button>
+      <span id="tool-hint" class="tool-hint" aria-live="polite"></span>
+    </div>
+  </main>
+
+  <aside id="properties-panel" class="panel">
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" id="tab-properties" aria-controls="properties">Ominaisuudet</button>
+      <button type="button" role="tab" id="tab-tasks" aria-controls="task-list">Tehtävälista</button>
+      <button type="button" role="tab" id="tab-info" aria-controls="course-info">Radan tiedot</button>
+      <button type="button" role="tab" id="tab-validation" aria-controls="validation">Validointi <span id="validation-badge" class="badge"></span></button>
+    </div>
+    <div id="properties" role="tabpanel" aria-labelledby="tab-properties"></div>
+    <div id="task-list" role="tabpanel" aria-labelledby="tab-tasks" hidden></div>
+    <div id="course-info" class="course-info" role="tabpanel" aria-labelledby="tab-info" hidden></div>
+    <div id="validation" role="tabpanel" aria-labelledby="tab-validation" hidden></div>
+  </aside>
+
+  <aside id="help-panel" class="help-panel" aria-label="Ohje" hidden>
+    <div class="help-header">
+      <strong class="help-title">Ohje</strong>
+      <input id="help-search" type="search" placeholder="Hae ohjeesta" aria-label="Hae ohjeesta">
+      <button type="button" id="help-prev" title="Edellinen osuma (Shift+Enter)" aria-label="Edellinen osuma">‹</button>
+      <button type="button" id="help-next" title="Seuraava osuma (Enter)" aria-label="Seuraava osuma">›</button>
+      <button type="button" id="help-expand" aria-pressed="false" aria-label="Laajenna tai kavenna ohje">⇔</button>
+      <button type="button" id="help-close" title="Sulje (Esc)" aria-label="Sulje ohje">×</button>
+      <span id="help-count" class="help-count" aria-live="polite"></span>
+    </div>
+    <div class="help-main">
+      <details class="help-toc" open>
+        <summary>Sisällys</summary>
+        <nav id="help-toc" aria-label="Ohjeen sisällys"></nav>
+      </details>
+      <article id="help-content" class="help-content" tabindex="-1"></article>
+    </div>
+  </aside>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <section id="print-preview" class="print-preview" aria-label="Tulostusnäkymä" hidden>
+    <div class="preview-toolbar">
+      <strong>Tulostusnäkymä (A4 vaaka)</strong>
+      <span class="print-options"></span>
+      <button type="button" id="print-print" title="Tulosta tai tallenna PDF:nä selaimen tulostusikkunasta">Tulosta / PDF</button>
+      <button type="button" id="print-png">Vie PNG</button>
+      <button type="button" id="print-svg">Vie SVG</button>
+      <button type="button" id="print-close" title="Sulje (Esc)">Sulje</button>
+    </div>
+    <div class="sheet-holder"></div>
+  </section>
+  <footer class="statusbar">
+    <span id="status-tasks"></span>
+    <span id="status-validation"></span>
+    <span id="status-arrows"></span>
+    <span id="status-saved"></span>
+    <span class="shortcuts" title="Delete poista · R kierrä · nuolinäppäimet siirtävät (Shift = 1 m) · Alt+↑/↓ järjestys · V valitse · A nuoli · Shift+klikkaus lisää valintaan · Ctrl+A valitse kaikki · Esc peruuta · F1 ohje">Vedä tyhjästä: valitse useita · Delete poista · R kierrä · Ctrl+Z kumoa · F1 ohje</span>
+  </footer>
+</body>
+</html>
